@@ -50,9 +50,18 @@
         width: 720px;
     }
 
+
+
+    /**********************************/
+    /************* HEADER *************/
+    /**********************************/
+
+    /* logo img */
     .logo-header {
         max-height: 250px;
     }
+
+
 
     .leadership-section,
     .properties div {
@@ -115,8 +124,12 @@
 /* SMALL container ≤ 768px */
 @media only screen and (max-width: 768px) {
 
-    /*** NAVIGAČNÍ MENU ***/
-    .mobile-button {
+    /**********************************/
+    /******* MOBILE NAVIGATION ********/
+    /**********************************/
+
+    /* hamburger button */
+    .hamburger-button {
         display: block;
         position: absolute;
         top: 15px;
@@ -124,6 +137,7 @@
         z-index: 200;
     }
 
+    /* navigation */
     .navigation {
         display: block;
         position: absolute;
@@ -131,31 +145,29 @@
         height: 490px;
     }
 
-    .navigation .glass-background {
+    .glass-background {
         height: 490px;
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }
 
-    .navigation nav {
+    /* navigation links */
+    nav {
         height: fit-content;
         width: 100%;
         align-items: start;
         justify-content: left;
         margin-top: 70px;
     }
-
-    .navigation nav ul {
+    nav > ul {
         flex-direction: column;
         width: 100%;
     }
-
-    .navigation nav ul li {
+    nav > ul > li {
         padding: 0px;
         border-top: 1px solid var(--gray3);
     }
-
-    .navigation nav ul li a {
+    nav > ul > li > a {
         font-size: 16px;
         padding: 20px 0px 20px 30px;
         width: 100%;
@@ -163,38 +175,33 @@
         border-bottom: 1px transparent;
     }
 
-    .navigation nav ul li a.active {
+    /* navigation active link */
+    .navigation > nav > ul > li > a.active {
         border-bottom: 1px transparent;
     }
-
     .letni-tabor.active {
         background-color: var(--greenTrans1);
     }
-
     .vikendove-seminare.active {
         background-color: var(--blueTrans1);
     }
-
     .vedeni-tabora.active {
         background-color: var(--purpleTrans);
     }
-
     .prihlaska.active {
         background-color: var(--pinkTrans);
     }
-
     .zpusob-platby.active {
         background-color: var(--redTrans);
     }
-
     .fotogalerie.active {
         background-color: var(--orangeTrans);
     }
-
     .rad-tabora.active {
         background-color: var(--yellowTrans2);
     }
-    /*** /NAVIGAČNÍ MENU ***/
+
+
 
     main {
         margin-top: 40px;
@@ -331,9 +338,18 @@
         padding-right: 15px;
     }
 
+
+
+    /**********************************/
+    /************* HEADER *************/
+    /**********************************/
+
+    /* logo img */
     .logo-header {
         padding-top: 80px;
     }
+
+
 
     .main-title hr,
     .secondary-title hr {

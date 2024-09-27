@@ -7,9 +7,9 @@ function toggleMenu(mobileButton) {
 
     // animace vysunutí navigačního menu v mobilní verzi
     let navBar = document.getElementById("nav");
-    navBar?.classList.toggle("JS-active");
+    navBar?.classList.toggle("JS_active");
 
-    if(navBar.classList?.contains("JS-active")) {
+    if(navBar.classList?.contains("JS_active")) {
         navBar.animate([{transform: "translateY(0%)"}], {duration: 600, fill: 'forwards'});
     } else {
         navBar.animate([{transform: "translateY(-100%)"}], {duration: 600, fill: 'forwards'});

@@ -4,7 +4,7 @@
 
     <h3 class="motto container">PRO VŠECHNY, KTEŘÍ MAJÍ RÁDI KYTARU</h3>
 
-    <button class="mobile-button" onclick="toggleMenu(this)">
+    <button class="hamburger-button" onclick="toggleMenu(this)">
         <div class="bar-container">
             <div class="bar"></div>
             <div class="bar"></div>
