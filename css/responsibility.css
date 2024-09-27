@@ -1,0 +1,370 @@
+/* X-LARGE container ≤ 1400px */
+@media only screen and (max-width: 1400px) {
+
+    .container {
+        width: 1140px;
+    }
+
+    /*** ZAMĚŘENÍ TÁBORA ***/
+    .video iframe {
+        width: 360px;
+    }
+}
+
+
+
+/* LARGE container ≤ 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+    }
+
+    /*** ZAMĚŘENÍ TÁBORA ***/
+    .specialization.text-box {
+        flex-direction: column;
+        row-gap: 20px;
+        width: 700px;
+    }
+
+    .specialization.text-box div {
+        padding: 20px 25px;
+    }
+
+    .video iframe {
+        width: 305px;
+    }
+
+    /*** PATIČKA ***/
+    footer img {
+        display: none;
+    }
+}
+
+
+
+/* MEDIUM container ≤ 992px */
+@media only screen and (max-width: 992px) {
+
+    .container {
+        width: 720px;
+    }
+
+    .logo-header {
+        max-height: 250px;
+    }
+
+    .leadership-section,
+    .properties div {
+        flex: 1 1 0px;
+    }
+
+    /*** LETNÍ TÁBOR ***/
+    .basic-info-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .basic-info {
+        text-align: left;
+        row-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .date,
+    .location,
+    .price,
+    .transport {
+        justify-content: left;
+    }
+
+    .date div,
+    .location div,
+    .price div,
+    .transport div {
+        order: 2;
+    }
+
+    .map {
+        width: 450px;
+    }
+
+    /*** ZAMĚŘENÍ TÁBORA ***/
+    .video-box {
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+    }
+
+    .video iframe {
+        width: 460px;
+    }
+
+    /*** PŘIHLÁŠKA ***/
+    /*** ŘÁD TÁBORA ***/
+    form,
+    .rules {
+        width: 100%;
+        margin: 0px auto 40px auto;
+    }
+
+}
+
+
+
+/* SMALL container ≤ 768px */
+@media only screen and (max-width: 768px) {
+
+    /*** NAVIGAČNÍ MENU ***/
+    .mobile-button {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 200;
+    }
+
+    .navigation {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 490px;
+    }
+
+    .navigation .glass-background {
+        height: 490px;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
+    .navigation nav {
+        height: fit-content;
+        width: 100%;
+        align-items: start;
+        justify-content: left;
+        margin-top: 70px;
+    }
+
+    .navigation nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navigation nav ul li {
+        padding: 0px;
+        border-top: 1px solid var(--gray3);
+    }
+
+    .navigation nav ul li a {
+        font-size: 16px;
+        padding: 20px 0px 20px 30px;
+        width: 100%;
+        display: inline-block;
+        border-bottom: 1px transparent;
+    }
+
+    .navigation nav ul li a.active {
+        border-bottom: 1px transparent;
+    }
+
+    .letni-tabor.active {
+        background-color: var(--greenTrans1);
+    }
+
+    .vikendove-seminare.active {
+        background-color: var(--blueTrans1);
+    }
+
+    .vedeni-tabora.active {
+        background-color: var(--purpleTrans);
+    }
+
+    .prihlaska.active {
+        background-color: var(--pinkTrans);
+    }
+
+    .zpusob-platby.active {
+        background-color: var(--redTrans);
+    }
+
+    .fotogalerie.active {
+        background-color: var(--orangeTrans);
+    }
+
+    .rad-tabora.active {
+        background-color: var(--yellowTrans2);
+    }
+    /*** /NAVIGAČNÍ MENU ***/
+
+    main {
+        margin-top: 40px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*** ZAMĚŘENÍ TÁBORA ***/
+    .specialization.text-box {
+        flex-direction: column;
+        row-gap: 20px;
+        width: calc(100% - 60px);
+    }
+
+    /*** VEDENÍ TÁBORA ***/
+    /*** CO S SEBOU NA TÁBOR ***/
+    /*** VŠECHNY TERMÍNY ***/
+    .leadership.text-box,
+    .properties.text-box,
+    .weekends.text-box {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    /*** ZPŮSOB PLATBY ***/
+    .payment-section {
+        width: 100%;
+    }
+
+    /*** PŘIHLÁŠKA ***/
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex.ucastnik {
+        row-gap: 10px;
+    }
+
+    form .radio input[type='radio'],
+    form .souhlas input[type='checkbox'] {
+        border-color: var(--gray0);
+    }
+
+    /*** PATIČKA ***/
+    footer .text-box {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    footer .text-box div {
+        width: 100%;
+    }
+}
+
+
+
+/* X-SMALL container ≤ 576px*/
+@media only screen and (max-width: 576px) {
+    /*** HLAVNÍ NADPIS ***/
+    .main-title hr {
+        visibility: hidden;
+    }
+    
+    /*** LETNÍ TÁBOR ***/
+    .basic-info {
+        text-align: left;
+        row-gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .basic-info > div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .date,
+    .location-text,
+    .price div,
+    .transport {
+        text-align: center;
+    }
+
+    .price-summary {
+        width: 100%;
+    }
+
+    .specialization.text-box {
+        width: 100%;
+    }
+
+    /*** VELIKOST IFRAME ***/
+    .map,
+    .video iframe {
+        width: calc(100vw - 40px);
+        height: auto;
+    }
+
+    /*** HARMONOGRAM TÁBORA ***/
+    .daily-schedule table td {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .daily-schedule {
+        margin: 20px;
+    }
+
+    /*** PŘIHLÁŠKA***/
+    form .druh-akce {
+        flex-direction: column;
+    }
+
+    .comment {
+        font-size: 12px;
+    }
+    
+    /*** PATIČKA ***/
+    .footer-img {
+        height: 120px;
+    }
+}
+
+
+
+/* XX-SMALL container < 350px*/
+@media only screen and (max-width: 350px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .logo-header {
+        padding-top: 80px;
+    }
+
+    .main-title hr,
+    .secondary-title hr {
+        display: none;
+    }
+
+    /*** VELIKOST IFRAME ***/
+    .map,
+    .video iframe {
+        width: calc(100vw - 30px);
+        height: auto;
+    }
+
+    /*** VEDENÍ TÁBORA ***/
+    /*** CO S SEBOU NA TÁBOR ***/
+    /*** VŠECHNY TERMÍNY ***/
+    .leadership.text-box div,
+    .properties.text-box div,
+    .weekends.text-box div {
+        width: 100%;
+    }
+
+    /*** HARMONOGRAM TÁBORA ***/
+    .wrapper .note .spiral-part .spiral:nth-child(10),
+    .wrapper .note .spiral-part .spiral:nth-child(11),
+    .wrapper .note .spiral-part .spiral:nth-child(12) {
+        display: none
+    }
+
+    /*** PŘIHLÁŠKA ***/
+    .comment {
+        text-align: left;
+    }
+}

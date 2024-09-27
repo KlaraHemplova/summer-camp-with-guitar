@@ -1,0 +1,784 @@
+/**********************************/
+/************* OBECNÉ *************/
+/**********************************/
+
+/* správné chování funkce :hover */
+@media (hover: hover) {
+    
+    button.green:hover,
+    button.blue:hover,
+    button.purple:hover,
+    button.pink:hover,
+    button.red:hover,
+    button.orange:hover,
+    button.yellow:hover,
+    input[type='submit']:hover {
+        background-color: var(--white);
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--white);
+    }
+    .letni-tabor:hover {
+        border-bottom: 1px solid var(--green);
+    }
+    .vikendove-seminare:hover {
+        border-bottom: 1px solid var(--blue);
+    }
+    .vedeni-tabora:hover {
+        border-bottom: 1px solid var(--purple);
+    }
+    .prihlaska:hover {
+        border-bottom: 1px solid var(--pink);
+    }
+    .zpusob-platby:hover {
+        border-bottom: 1px solid var(--red);
+    }
+    .fotogalerie:hover {
+        border-bottom: 1px solid var(--orange);
+    }
+    .rad-tabora:hover {
+        border-bottom: 1px solid var(--yellow);
+    }
+
+    .account-number > .number:hover {
+        color: var(--red);
+        cursor: pointer;
+    }
+
+    .leadership-section div a:hover,
+    .properties ul li a:hover {
+        color: var(--green);
+    }
+
+    footer .text-box div ul li a:hover,
+    footer .text-box p a:hover {
+        color: var(--whiteTrans2);
+    }
+}
+
+/* barvy */
+:root {
+    --black: #151922;
+    --blackTrans: rgba(21, 25, 34, 0.85);
+    --gray: #f4f6f9;
+    --gray0: #e1e5ec;
+    --gray1: #c5ccd7;
+    --gray2: #5e636c;
+    --gray3: #30343a;
+    --white: #ffffff;
+    --whiteTrans1: rgba(255, 255, 255, 0.4);
+    --whiteTrans2: rgba(255, 255, 255, 0.85);
+    --green: #B1E949;
+    --greenTrans1: rgba(177, 233, 73, 0.15);
+    --greenTrans2: rgba(177, 233, 73, 0.30);
+    --blue: #52E3E1;
+    --blueTrans1: rgba(82, 227, 225, 0.15);
+    --blueTrans2: rgba(82, 227, 225, 0.30);
+    --purple: #A85DFD;
+    --purpleTrans: rgba(168, 93, 253, 0.15);
+    --pink: #F050AE;
+    --pinkTrans: rgba(240, 80, 174, 0.15);
+    --red: #F77976;
+    --redTrans: rgba(247, 121, 118, 0.15);
+    --orange: #FFBB33;
+    --orangeTrans: rgba(255, 187, 51, 0.15);
+    --yellow: #FDF148;
+    --yellowTrans1: rgba(255, 249, 179, 0.03);
+    --yellowTrans2: rgba(253, 241, 72, 0.15);
+}
+
+/* nastavení pro celou stránku */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: none;
+}
+
+a,
+button {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+/* šířka kotejneru */
+.container {
+    display: block;
+    width: 1320px;
+    margin: 0px auto;
+}
+
+/* písmo */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    display: inline-block;
+}
+
+h1,
+h2 {
+    color: var(--gray3);
+    background-color: var(--white);
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--whiteTrans2);
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font-rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.centered {
+    text-align: center;
+}
+
+.main-title,
+.secondary-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+hr {
+    position: relative;
+    z-index: -100;
+    border-color: var(--gray0);
+    border-width: 1.5px;
+    border-style: solid;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.main-title hr {
+    bottom: 20.5px;
+}
+
+.secondary-title hr {
+    bottom: 16px;
+}
+
+.small-text {
+    font-size: 12px;
+    margin-top: 2px;
+    color: var(--gray2);
+}
+
+.margin-bottom10 {
+    margin-bottom: 10px;
+}
+
+/* tlačítko */
+button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray3);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+    margin: 25px auto 0px auto;
+    padding: 10px 18px;
+}
+
+button.green {
+    background-color: var(--green);
+    border: 3px solid var(--green);
+}
+
+button.blue {
+    background-color: var(--blue);
+    border: 3px solid var(--blue);
+}
+
+button.purple {
+    background-color: var(--purple);
+    border: 3px solid var(--purple);
+}
+
+button.pink {
+    background-color: var(--pink);
+    border: 3px solid var(--pink);
+}
+
+button.red {
+    background-color: var(--red);
+    border: 3px solid var(--red);
+}
+
+button.orange {
+    background-color: var(--orange);
+    border: 3px solid var(--orange);
+}
+
+button.yellow {
+    background-color: var(--yellow);
+    border: 3px solid var(--yellow);
+}
+
+/* barevné pozadí */
+div.white {
+    background-color: var(--whiteTrans1);
+    box-shadow: inset 0px 0px 50px -25px var(--white);
+}
+
+div.green {
+    background-color: var(--greenTrans1);
+    box-shadow: inset 0px 0px 50px -35px var(--green);
+}
+
+div.blue {
+    background-color: var(--blueTrans1);
+    box-shadow: inset 0px 0px 50px -35px var(--blue);
+}
+
+div.purple {
+    background-color: var(--purpleTrans);
+    box-shadow: inset 0px 0px 50px -35px var(--purple);
+}
+
+div.pink {
+    background-color: var(--pinkTrans);
+    box-shadow: inset 0px 0px 50px -35px var(--pink);
+}
+
+div.red {
+    background-color: var(--redTrans);
+    box-shadow: inset 0px 0px 50px -35px var(--red);
+}
+
+div.orange {
+    background-color: var(--orangeTrans);
+    box-shadow: inset 0px 0px 50px -35px var(--orange);
+}
+
+div.yellow {
+    background-color: var(--yellowTrans2);
+    box-shadow: inset 0px 0px 50px -35px var(--yellow);
+}
+
+
+
+/**********************************/
+/********** HLAVNÍ OBSAH **********/
+/**********************************/
+
+/* obecné */
+main {
+    margin-top: 85px;
+}
+
+section {
+    padding-bottom: 60px;
+}
+
+section:last-child {
+    padding-bottom: 40px;
+}
+
+.text-box {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.text-box > div {
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.display-none {
+    display: none;
+}
+
+
+/********** LETNÍ TÁBOR ***********/
+.basic-info-flex {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+/* ikony */
+.icon {
+    width: 50px;
+    height: auto;
+}
+
+/* mapa */
+.map {
+    aspect-ratio: 4/3;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--gray0);
+}
+
+/* informace */
+.basic-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.date,
+.location,
+.price,
+.transport {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 15px;
+}
+
+.date-num {
+    font-size: 22px;
+}
+
+.location-text,
+.price-number,
+.transport div {
+    font-size: 18px;
+}
+
+.date-text,
+.price-summary {
+    font-size: 14px;
+    color: var(--gray2);
+}
+
+.price-summary {
+    width: 350px;
+}
+
+
+/*** ZAMĚŘENÍ TÁBORA ***/
+.specialization {
+    margin-bottom: 40px;
+}
+
+.specialization div {
+    display: flex;
+}
+
+.specialization div p {
+    margin: auto 0px;
+}
+
+/* videa */
+.video-container {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(180deg, var(--black), var(--blackTrans)),
+    radial-gradient(ellipse at bottom left, var(--blue), transparent 60%),
+    radial-gradient(ellipse at bottom right, var(--pink), transparent 60%),
+    radial-gradient(ellipse at 80% 80%, var(--orange), transparent 60%), 
+    radial-gradient(ellipse at 20% 80%, var(--green), transparent 60%),
+    radial-gradient(ellipse at center center, var(--yellow), transparent 60%);
+    padding-bottom: 40px;
+}
+
+.video-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video iframe {
+    aspect-ratio: 16/9;
+    width: 420px;
+    box-shadow: 0px 0px 15px -3px var(--blackTrans);
+    border-radius: 10px;
+    border: none;
+}
+
+.video-label {
+    color: var(--gray2);
+    margin-top: 5px;
+}
+
+
+/*** VEDENÍ TÁBORA ***/
+.leadership-section {
+    width: 260px;
+    text-align: center;
+}
+
+.leadership-section hr,
+.payment-section hr {
+    border-width: 1px;
+    margin: 3px 0px 10px 0px;
+}
+
+.leadership-section div {
+    padding: 0;
+}
+
+.leadership-section div a,
+.properties ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+
+/*** DENNÍ HARMONOGRAM TÁBOR ***/
+/* notýsek */
+.wrapper {
+    height: fit-content;
+    width: fit-content;
+    margin: 35px auto;
+}
+
+.wrapper .note {
+    background-color: var(--yellowTrans1);
+    border: 1px solid var(--gray0);
+    border-radius: 10px;
+    z-index: -100;
+    box-shadow: 0px 0px 10px -2px var(--gray0);
+}
+
+.wrapper .note .spiral-part {
+    height: 50px;
+    background-color: var(--greenTrans2);
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 5px 0px 9px;
+}
+
+.wrapper .note .spiral-part-weekends {
+    background-color: var(--blueTrans2);
+}
+
+.wrapper .note .spiral-part .spiral {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .note .spiral-part .spiral .hole {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--gray3);
+}
+
+.wrapper .note .spiral-part .spiral .wire {
+    width: 4px;
+    height: 32px;
+    background-color: var(--gray1);
+    border-radius: 2px;
+    position: relative;
+    right: 8px;
+    bottom: 17px;
+}
+
+/* tabulka v notýsku */
+.daily-schedule {
+    margin: 25px;
+}
+
+.daily-schedule th {
+    text-align: left;
+}
+
+.daily-schedule table tr {
+    border-bottom: 1.5px solid var(--gray0);
+    height: 30px;
+}
+
+.daily-schedule table td {
+    text-align: left;
+    padding: 0px 3px;
+}
+
+.daily-schedule table td:first-child {
+    text-align: right;
+}
+
+
+/*** CO S SEBOU NA TÁBOR ***/
+.properties div {
+    width: 280px;
+}
+
+.properties div h4 {
+    margin-bottom: 10px;
+}
+
+.properties ul {
+    padding-left: 17px;
+    list-style: disc;
+}
+
+.properties ul li {
+    margin-bottom: 5px;
+}
+
+
+/**********************************/
+/******* VÍKENDOVÉ SEMINÁŘE *******/
+/**********************************/
+
+/*** VŠECHNY TERMÍNY ***/
+.weekends.text-box {
+    margin-bottom: 0;
+}
+
+.weekends-section {
+    width: 240px;
+    text-align: center;
+}
+
+.weekends-section hr {
+    border-width: 1px;
+    margin: 3px 0px 10px 0px;
+}
+
+.weekends-section table {
+    width: 100%;
+}
+
+.weekends-section table tr {
+    height: 25px;
+}
+
+.weekends-section table td {
+    width: 50%;
+}
+
+.weekends-section table td:nth-child(1) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.weekends-section table td:nth-child(2) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+/*** VYUČUJÍCÍ ***/
+.teachers-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teachers {
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+/**********************************/
+/********** ZPŮSOB PLATBY *********/
+/**********************************/
+
+.account-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.account-number > .number {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 2px 0px;
+    transition: 0.5s;
+}
+
+.account-number > .copied {
+    font-size: 14px;
+    color: var(--gray2);
+}
+
+.payment {
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-section {
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.payment-section h4 {
+    margin-bottom: 10px;
+}
+
+.payment-summer {
+    margin-bottom: 30px;
+}
+
+.payment ul {
+    padding-left: 17px;
+    list-style: disc;
+}
+
+.payment ul li {
+    margin-bottom: 5px;
+}
+
+.questions-text {
+    text-align: center;
+    padding: 0px !important;
+}
+
+
+/**********************************/
+/*********** ŘÁD TÁBORA ***********/
+/**********************************/
+
+.rules {
+    width: 950px;
+    margin: 35px auto 40px auto;
+}
+
+.rules ol {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-left: 18px;
+}
+
+.rules ul {
+    margin: 5px 0px 0px 23px;
+}
+
+.rules h4 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.rules-comment {
+    margin: 30px 0px;
+}
+
+
+/**********************************/
+/************ PATIČKA *************/
+/**********************************/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* pozadí */
+.footer-img {
+    height: 150px;
+    background-image: url("../img/guitarHeads.png");
+    background-size: auto 100%;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    opacity: 0.7;
+}
+
+.footer-background {
+    height: fit-content;
+    background-image: linear-gradient(180deg, var(--black), var(--blackTrans)),
+    radial-gradient(ellipse at bottom left, var(--blue), transparent 60%),
+    radial-gradient(ellipse at bottom right, var(--pink), transparent 60%),
+    radial-gradient(ellipse at 80% 80%, var(--orange), transparent 60%), 
+    radial-gradient(ellipse at 20% 80%, var(--green), transparent 60%),
+    radial-gradient(ellipse at center center, var(--yellow), transparent 60%);
+}
+
+/* sekce v patičce */
+footer img {
+    height: 160px;
+    width: auto;
+    margin-right: 50px;
+    opacity: 0.8;
+}
+
+footer .text-box {
+    padding-top: 45px;
+}
+
+footer .text-box div {
+    width: 280px;
+    height: fit-content;
+    border-radius: 0px !important;
+    padding: 0px 10px !important;
+}
+
+footer .text-box div h4 {
+    color: var(--whiteTrans2);
+    margin-bottom: 10px;
+}
+
+footer .text-box p {
+    color: var(--gray2);
+}
+
+footer .text-box div ul {
+    list-style: none;
+}
+
+footer .text-box div ul li {
+    color: var(--gray2);
+    margin-bottom: 8px;
+}
+
+footer .text-box div ul li a,
+footer .text-box p a {
+    color: var(--gray2);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* copyright */
+.website-author {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray2);
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 1px solid var(--gray3);
+}
