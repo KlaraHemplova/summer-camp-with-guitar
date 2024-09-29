@@ -1,0 +1,84 @@
+/* :HOVER FOR DESKTOP VERSION ONLY */
+@media (hover: hover) {
+    
+    /**********************************/
+    /************* GENERAL ************/
+    /**********************************/
+
+    /* buttons */
+    button.green:hover,
+    button.blue:hover,
+    button.purple:hover,
+    button.pink:hover,
+    button.red:hover,
+    button.orange:hover,
+    button.yellow:hover,
+    input[type='submit']:hover {
+        background-color: var(--white);
+    }
+
+
+
+    /**********************************/
+    /******* DESKTOP NAVIGATION *******/
+    /**********************************/
+
+    /* navigation links */
+    nav > ul > li > a:hover {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--white);
+    }
+    .letni-tabor:hover {
+        border-bottom: 1px solid var(--green);
+    }
+    .vikendove-seminare:hover {
+        border-bottom: 1px solid var(--blue);
+    }
+    .vedeni-tabora:hover {
+        border-bottom: 1px solid var(--purple);
+    }
+    .prihlaska:hover {
+        border-bottom: 1px solid var(--pink);
+    }
+    .zpusob-platby:hover {
+        border-bottom: 1px solid var(--red);
+    }
+    .fotogalerie:hover {
+        border-bottom: 1px solid var(--orange);
+    }
+    .rad-tabora:hover {
+        border-bottom: 1px solid var(--yellow);
+    }
+
+
+
+    /**********************************/
+    /********* PAYMENT METHOD *********/
+    /**********************************/
+
+    /* account number */
+    .account-number > .number:hover {
+        color: var(--red);
+        cursor: pointer;
+    }
+
+
+
+    .leadership-section div a:hover,
+    .properties ul li a:hover {
+        color: var(--green);
+    }
+
+
+
+    /**********************************/
+    /************* FOOTER *************/
+    /**********************************/
+
+    /* footer links */
+    footer .text-box > div > ul > li > a:hover,
+    footer .text-box p > a:hover {
+        color: var(--whiteTrans2);
+    }
+}
