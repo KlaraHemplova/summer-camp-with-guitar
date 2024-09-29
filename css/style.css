@@ -642,6 +642,9 @@ section:last-child {
 }
 
 .payment-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
     width: 700px;
     margin-bottom: 25px;
 }
@@ -650,16 +653,12 @@ section:last-child {
     margin-bottom: 10px;
 }
 
-.payment-summer {
-    margin-bottom: 30px;
-}
-
 .payment ul {
     padding-left: 17px;
     list-style: disc;
 }
 
-.payment ul li {
+.payment ul > li {
     margin-bottom: 5px;
 }
 
