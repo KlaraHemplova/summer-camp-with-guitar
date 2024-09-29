@@ -9,14 +9,14 @@
 
 <body>
 
-    <!------- HLAVIČKA -------->
+    <!------- HEADER -------->
     <?php include_once "php/header.php"; ?>
 
 
-    <!------- HLAVNÍ OBSAH -------->
+    <!------- MAIN CONTENT -------->
     <main id="main">
 
-        <!-- LETNÍ TÁBOR -->
+        <!-- SUMMER CAMP (basic info) -->
         <section class="container">
 
             <div class="main-title">
@@ -28,41 +28,40 @@
 
                 <div class="basic-info">
 
+                    <!-- date -->
                     <div class="date">
-                        <div class="date-num bold">18. až 25. srpna 2024</div> <!-- datum konání příštího tábora-->
-                        <img class="icon" src="img/icons/green/calendar.png" alt="Ikona kalendáře">
+                        <div class="date-text bold">18. až 25. srpna 2024</div>
+                        <img class="icon" src="img/icons/green/calendar.png" alt="ikona kalendáře">
                     </div>
 
+                    <!-- location -->
                     <div class="location">
                         <div class="location-text">
-                            <div>Pension Jívka&nbsp;II</div> <!-- název areálu -->
-                            <div>Jívka 170, 542&nbsp;34 Malé Svatoňovice</div> <!-- adresa areálu -->
+                            <div>Pension Jívka&nbsp;II</div>
+                            <div>Jívka 170, 542&nbsp;34 Malé Svatoňovice</div>
                         </div>
-                        <img class="icon" src="img/icons/green/map.png" alt="Ikona mapy">
+                        <img class="icon" src="img/icons/green/map.png" alt="ikona mapy">
                     </div>
 
+                    <!-- price -->
                     <div class="price">
                         <div>
-                            <div class="price-number">cena tábora <span class="bold">5 200 Kč</span></div> <!-- cena tábora -->
-                            <div class="price-summary">V ceně je zahrnuto ubytování, strava čtyřikrát denně, výuka, materiály k&nbsp;výuce a&nbsp;doprovodný program.</div>
+                            <div class="price-number">cena tábora <span class="bold">5 200 Kč</span></div>
+                            <div class="price-text">V ceně je zahrnuto ubytování, strava čtyřikrát denně, výuka, materiály k&nbsp;výuce a&nbsp;doprovodný program.</div>
                         </div>
-                        <img class="icon" src="img/icons/green/price.png" alt="Ikona cenovky">
+                        <img class="icon" src="img/icons/green/price.png" alt="ikona cenovky">
                     </div>
 
+                    <!-- transport -->
                     <div class="transport">
                         <div>dopravu si rodiče zajišťují sami</div>
-                        <img class="icon" src="img/icons/green/car.png" alt="Ikona auta">
+                        <img class="icon" src="img/icons/green/car.png" alt="ikona auta">
                     </div>
-
                 </div>
 
-                <!-- mapa areálu -->
-                <div class="map-container">
-                    <iframe class="map" src="https://frame.mapy.cz/s/redazeseje" frameborder="0"></iframe>
-                </div>
-
+                <!-- map -->
+                <iframe class="map" src="https://frame.mapy.cz/s/redazeseje" frameborder="0"></iframe>
             </div>
-
         </section>
 
         <!-- ZAMĚŘENÍ TÁBORA -->

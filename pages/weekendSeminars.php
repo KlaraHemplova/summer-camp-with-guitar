@@ -30,10 +30,10 @@
 
                     <div class="date">
                         <div>
-                            <div class="date-text">Příští seminář bude:</div>
-                            <div class="date-num bold">18. až 20. října 2024</div> <!-- datum konání příštího semináře-->
+                            <div class="date-label">Příští seminář bude:</div>
+                            <div class="date-text bold">18. až 20. října 2024</div> <!-- datum konání příštího semináře-->
                         </div>
-                        <img class="icon" src="../img/icons/blue/calendar.png" alt="Ikona kalendáře">
+                        <img class="icon" src="../img/icons/blue/calendar.png" alt="ikona kalendáře">
                     </div>
 
                     <div class="location">
@@ -41,31 +41,26 @@
                             <div>Tábor J.&nbsp;A.&nbsp;Komenského</div> <!-- název areálu -->
                             <div>Běleč nad Orlicí 121, 503&nbsp;46 Běleč n. O.</div> <!-- adresa areálu -->
                         </div>
-                        <img class="icon" src="../img/icons/blue/map.png" alt="Ikona mapy">
+                        <img class="icon" src="../img/icons/blue/map.png" alt="ikona mapy">
                     </div>
 
                     <div class="price">
                         <div>
                             <div class="price-number">cena semináře <span class="bold">2 200 Kč</span></div> <!-- cena semináře -->
-                            <div class="price-summary">V ceně je zahrnuto ubytování s&nbsp;plnou penzí, výuka a&nbsp;materiály k&nbsp;výuce.</div>
+                            <div class="price-text">V ceně je zahrnuto ubytování s&nbsp;plnou penzí, výuka a&nbsp;materiály k&nbsp;výuce.</div>
                         </div>
-                        <img class="icon" src="../img/icons/blue/price.png" alt="Ikona cenovky">
+                        <img class="icon" src="../img/icons/blue/price.png" alt="ikona cenovky">
                     </div>
 
                     <div class="transport">
                         <div>dopravu si rodiče zajišťují sami</div>
-                        <img class="icon" src="../img/icons/blue/car.png" alt="Ikona auta">
+                        <img class="icon" src="../img/icons/blue/car.png" alt="ikona auta">
                     </div>
-
                 </div>
 
-                <!-- mapa areálu -->
-                <div class="map-container">
-                    <iframe class="map" src="https://frame.mapy.cz/s/covedozate" frameborder="0"></iframe>
-                </div>
-
+                <!-- map -->
+                <iframe class="map" src="https://frame.mapy.cz/s/covedozate" frameborder="0"></iframe>
             </div>
-
         </section>
 
         <!-- VŠECHNY TERMÍNY -->

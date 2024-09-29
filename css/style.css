@@ -320,7 +320,7 @@ section:last-child {
     column-gap: 15px;
 }
 
-.date-num {
+.date-text {
     font-size: 22px;
 }
 
@@ -330,13 +330,13 @@ section:last-child {
     font-size: 18px;
 }
 
-.date-text,
-.price-summary {
+.date-label,
+.price-text {
     font-size: 14px;
     color: var(--gray2);
 }
 
-.price-summary {
+.price-text {
     width: 350px;
 }
 
