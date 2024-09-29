@@ -1,26 +1,13 @@
-/* správné chování funkce :hover */
-@media (hover: hover) {
+/**********************************/
+/************* GENERAL ************/
+/**********************************/
 
-    input[type='submit']:hover {
-        background-color: var(--white);
-        color: var(--gray3);
-    }
-
-    form .radio input[type='radio']:hover {
-        border-color: var(--gray0);
-    }
-
-    form fieldset ul li a:hover {
-        color: var(--pink);
-    }
-}
-
-/* formulář obecně */
 form {
     width: 950px;
     margin: 0px auto 40px auto;
 }
 
+/* form sections */
 form fieldset {
     margin-top: 20px;
     border: 2px solid var(--gray0);
@@ -28,16 +15,7 @@ form fieldset {
     border-radius: 10px;
     padding: 13px;
 }
-
-form fieldset.documents>div,
-form fieldset.validity>div,
-form fieldset.storno>div {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
-form fieldset legend {
+form fieldset > legend {
     margin-left: 5px;
     color: var(--white);
     font-size: 14px;
@@ -46,51 +24,12 @@ form fieldset legend {
     border-radius: 30px;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 15px;
-}
-
-.flex-item {
-    width: 100%;
-}
-
-.comment {
-    margin-top: 2px;
-    margin-bottom: -5px;
-    font-size: 14px;
-    font-weight: 300;
-    color: var(--gray1);
-    text-align: right;
-}
-
-form fieldset ul {
-    padding-left: 17px;
-    list-style: disc;
-}
-
-form fieldset ul li {
-    margin-bottom: 5px;
-}
-
-form fieldset ul li:last-child {
-    margin-bottom: 0px;
-}
-
-form fieldset ul li a {
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.5s;
-}
-
-/* input */
-input::placeholder,
-textarea::placeholder {
+/* form inputs TEXT, TEXTAREA, TEL, EMAIL */
+form input::placeholder,
+form textarea::placeholder {
     color: var(--gray1);
     font-weight: 300;
 }
-
 form input,
 form textarea {
     outline: none;
@@ -106,7 +45,6 @@ form input[type='email'] {
     border: 2px solid var(--white);
     font-size: 16px;
 }
-
 form textarea:focus-visible,
 form input[type='text']:focus-visible,
 form input[type='tel']:focus-visible,
@@ -114,23 +52,15 @@ form input[type='email']:focus-visible {
     border: 2px solid var(--gray0);
 }
 
-form .adress input:nth-child(2),
-form .contact input:nth-child(2) {
-    margin: 10px 0;
-}
-
-/* textarea */
 form textarea {
     resize: none;
     overflow-y: scroll;
     overflow-x: hidden;
     height: 75px;
 }
-
 form textarea::-webkit-scrollbar {
     width: 8px;
 }
-
 form textarea::-webkit-scrollbar-thumb {
     background-color: var(--pink);
     outline: none;
@@ -139,8 +69,20 @@ form textarea::-webkit-scrollbar-thumb {
     cursor: default;
 }
 
-/* radio */
-form .radio input[type='radio'] {
+/* inputs RADIO */
+form .radio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+form .radio-box {
+    display: flex;
+}
+form .radio-box > label {
+    cursor: pointer;
+}
+
+form input[type='radio'] {
     appearance: none;
     border: 2px solid var(--white);
     background-color: var(--white);
@@ -152,37 +94,13 @@ form .radio input[type='radio'] {
     margin-right: 7px;
     cursor: pointer;
 }
-
-form .radio input[type='radio']:checked {
+form input[type='radio']:checked {
     border-color: var(--gray0);
     background-color: var(--pink);
 }
 
-form .radio-box {
-    display: flex;
-    align-items: start;
-    margin-top: 5px;
-}
-
-form .druh-akce {
-    display: flex;
-    column-gap: 20px;
-}
-
-form .stup-pokr {
-    margin-bottom: 10px;
-}
-
-form .radio label {
-    cursor: pointer;
-}
-
-.druh-akce:first-child {
-    margin-right: 15px;
-}
-
-/* tlačítko odeslání */
-input[type='submit'] {
+/* submit button */
+form input[type='submit'] {
     width: auto;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -197,3 +115,78 @@ input[type='submit'] {
     margin: 25px auto 0px auto;
     padding: 10px 18px;
 }
+
+
+
+/**********************************/
+/************ SPECIFIC ************/
+/**********************************/
+
+/* two columns */
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+.form-flex .flex-item {
+    width: 100%;
+}
+
+/* ADRESS & CONTACT row gap */
+/* TEXT FIELDSETS row gap */
+form .adress-container > .adress,
+form .contact-container > .contact,
+form > fieldset.documents > div,
+form > fieldset.validity > div,
+form > fieldset.storno > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+/* ACTION TYPE options in row */
+form .action-type {
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+/* EXPERIENCES - space between options and text area */
+form .experiences {
+    margin-bottom: 12px;
+}
+
+
+
+/**********************************/
+/************** TEXTS *************/
+/**********************************/
+
+/* EXPERIENCES - comment under textarea */
+.experiences-comment {
+    margin-top: 2px;
+    margin-bottom: -5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray1);
+    text-align: right;
+}
+
+/* OTHER DOCUMENTS - list */
+form fieldset ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    padding-left: 17px;
+    list-style: disc;
+}
+
+
+
+
+
+
+
+
+
+
+

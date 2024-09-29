@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/styleForm.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/responsibility.css">
     
 </head>

@@ -13,8 +13,9 @@
     button.red:hover,
     button.orange:hover,
     button.yellow:hover,
-    input[type='submit']:hover {
+    form input[type='submit']:hover {
         background-color: var(--white);
+        color: var(--gray3);
     }
 
 
@@ -49,6 +50,22 @@
     }
     .rad-tabora:hover {
         border-bottom: 1px solid var(--yellow);
+    }
+
+
+
+    /**********************************/
+    /*********** APPLICATION **********/
+    /**********************************/
+
+    /* inputs RADIO */
+    form input[type='radio']:hover {
+        border-color: var(--gray0);
+    }
+
+    /* form links */
+    form a:hover {
+        color: var(--pink);
     }
 
 

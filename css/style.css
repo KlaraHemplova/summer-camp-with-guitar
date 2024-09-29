@@ -2,7 +2,7 @@
 /************* OBECNÉ *************/
 /**********************************/
 
-/* barvy */
+/* colors */
 :root {
     --black: #151922;
     --blackTrans: rgba(21, 25, 34, 0.85);
@@ -48,14 +48,13 @@ body {
     position: relative;
 }
 
-a:focus-visible,
-button:focus-visible {
-    outline: none;
-}
-
 a,
 button {
     -webkit-tap-highlight-color: transparent !important;
+}
+a:focus-visible,
+button:focus-visible {
+    outline: none;
 }
 
 /* šířka kotejneru */
@@ -100,6 +99,12 @@ h3 {
 p {
     font-size: 16px;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
 }
 
 .font-rubik {
@@ -395,13 +400,6 @@ section:last-child {
 
 .leadership-section div {
     padding: 0;
-}
-
-.leadership-section div a,
-.properties ul li a {
-    text-decoration: none;
-    transition: 0.5s;
-    font-weight: 500;
 }
 
 

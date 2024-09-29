@@ -115,9 +115,19 @@
         width: 460px;
     }
 
-    /*** PŘIHLÁŠKA ***/
+
+
+    /**********************************/
+    /*********** APPLICATION **********/
+    /**********************************/
+    form {
+        width: 100%;
+        margin: 0px auto 40px auto;
+    }
+
+
+
     /*** ŘÁD TÁBORA ***/
-    form,
     .rules {
         width: 100%;
         margin: 0px auto 40px auto;
@@ -243,17 +253,24 @@
         width: 100%;
     }
 
-    /*** PŘIHLÁŠKA ***/
-    .flex {
+
+
+    /**********************************/
+    /*********** APPLICATION **********/
+    /**********************************/
+
+    /* all in one column */
+    .form-flex {
         flex-direction: column;
     }
 
-    .flex.ucastnik {
+    /* PARTICIPANT row gap */
+    .form-flex.participant {
         row-gap: 10px;
     }
 
-    form .radio input[type='radio'],
-    form .souhlas input[type='checkbox'] {
+    /* inputs RADIO */
+    form input[type='radio'] {
         border-color: var(--gray0);
     }
 
@@ -326,12 +343,19 @@
         margin: 20px;
     }
 
-    /*** PŘIHLÁŠKA***/
-    form .druh-akce {
+
+
+    /**********************************/
+    /*********** APPLICATION **********/
+    /**********************************/
+
+    /* ACTION TYPE options in column */
+    form .action-type {
         flex-direction: column;
     }
 
-    .comment {
+    /* EXPERIENCES - comment under textarea */
+    .experiences-comment {
         font-size: 12px;
     }
     
@@ -397,8 +421,12 @@
         display: none
     }
 
-    /*** PŘIHLÁŠKA ***/
-    .comment {
+    /**********************************/
+    /*********** APPLICATION **********/
+    /**********************************/
+
+    /* EXPERIENCES - comment under textarea */
+    .experiences-comment {
         text-align: left;
     }
 }
