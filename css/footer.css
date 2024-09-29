@@ -39,7 +39,7 @@ footer .container > img /* logo */ {
     margin-right: 50px;
     opacity: 0.8;
 }
-footer .container > div {
+footer .container > .text-box-item {
     width: 280px;
     height: fit-content;
     border-radius: 0px !important;
@@ -47,25 +47,27 @@ footer .container > div {
 }
 
 /* footer text styles */
-footer .text-box > div > h4 {
+footer .text-box h4 {
     color: var(--whiteTrans2);
     margin-bottom: 10px;
 }
 footer .text-box p {
     color: var(--gray2);
 }
-footer .text-box > div > ul {
+footer .text-box > .text-box-item > ul {
     list-style: none;
-}
-footer .text-box > div > ul > li {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 0px;
     color: var(--gray2);
-    margin-bottom: 8px;
 }
 
 /* footer links */
-footer .text-box > div > ul > li > a,
+footer .text-box ul a,
 footer .text-box p > a {
     color: var(--gray2);
+    font-weight: 400;
     text-decoration: none;
     transition: 0.5s;
 }

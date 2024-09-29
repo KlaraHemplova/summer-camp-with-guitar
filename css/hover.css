@@ -55,6 +55,18 @@
 
 
     /**********************************/
+    /******** CAMP AND SEMINARS *******/
+    /**********************************/
+
+    /* summer camp links */
+    .leadership a:hover,
+    .properties a:hover {
+        color: var(--green);
+    }
+
+
+
+    /**********************************/
     /*********** APPLICATION **********/
     /**********************************/
 
@@ -78,13 +90,6 @@
     .account-number > .number:hover {
         color: var(--red);
         cursor: pointer;
-    }
-
-
-
-    .leadership-section div a:hover,
-    .properties ul li a:hover {
-        color: var(--green);
     }
 
 

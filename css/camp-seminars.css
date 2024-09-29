@@ -1,0 +1,188 @@
+/**********************************/
+/************* GENERAL ************/
+/**********************************/
+
+/* BASIC INFO */
+.basic-info-flex {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.basic-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* BASIC INFO texts */
+.date,
+.location,
+.price,
+.transport {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 15px;
+}
+
+.date-text {
+    font-size: 22px;
+}
+.location-text,
+.price-number,
+.transport-text {
+    font-size: 18px;
+}
+.date-label,
+.price-text {
+    font-size: 14px;
+    color: var(--gray2);
+}
+.price-text {
+    width: 350px;
+}
+
+/* BASIC INFO icons */
+.icon {
+    width: 50px;
+    height: auto;
+}
+
+/* BASIC INFO map */
+.map {
+    aspect-ratio: 4/3;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--gray0);
+}
+
+/* DAILY SCHEDULE wrapper */
+.wrapper {
+    height: fit-content;
+    width: fit-content;
+    margin: 35px auto;
+}
+.wrapper > .note {
+    background-color: var(--yellowTrans1);
+    border: 1px solid var(--gray0);
+    border-radius: 10px;
+    z-index: -100;
+    box-shadow: 0px 0px 10px -2px var(--gray0);
+}
+.wrapper > .note > .spiral-part {
+    height: 50px;
+    background-color: var(--greenTrans2);
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 5px 0px 9px;
+}
+.wrapper > .note > .spiral-part-weekends {
+    background-color: var(--blueTrans2);
+}
+.wrapper > .note > .spiral-part > .spiral {
+    display: flex;
+    align-items: center;
+}
+.wrapper > .note > .spiral-part > .spiral > .hole {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--gray3);
+}
+.wrapper > .note > .spiral-part > .spiral > .wire {
+    width: 4px;
+    height: 32px;
+    background-color: var(--gray1);
+    border-radius: 2px;
+    position: relative;
+    right: 8px;
+    bottom: 17px;
+}
+
+/* PROPERTIES */
+.properties > .text-box-item {
+    width: 280px;
+}
+.properties h4 {
+    margin-bottom: 10px;
+}
+
+
+
+/**********************************/
+/*********** SUMMER CAMP **********/
+/**********************************/
+
+/* CAMP SPECIALIZATION */
+.specialization {
+    margin-bottom: 40px;
+}
+.specialization > div {
+    display: flex;
+}
+.specialization > div > p {
+    margin: auto 0px;
+}
+
+/* CAMP SPECIALIZATION videos container (background) */
+.video-container {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(180deg, var(--black), var(--blackTrans)),
+    radial-gradient(ellipse at bottom left, var(--blue), transparent 60%),
+    radial-gradient(ellipse at bottom right, var(--pink), transparent 60%),
+    radial-gradient(ellipse at 80% 80%, var(--orange), transparent 60%), 
+    radial-gradient(ellipse at 20% 80%, var(--green), transparent 60%),
+    radial-gradient(ellipse at center center, var(--yellow), transparent 60%);
+    padding-bottom: 40px;
+}
+
+/* CAMP SPECIALIZATION videos */
+.video-box {
+    display: flex;
+    justify-content: space-between;
+}
+.video > iframe {
+    aspect-ratio: 16/9;
+    width: 420px;
+    box-shadow: 0px 0px 15px -3px var(--blackTrans);
+    border-radius: 10px;
+    border: none;
+}
+.video-label {
+    color: var(--gray2);
+    margin-top: 5px;
+}
+
+/* CAMP LEADERSHIP */
+.leadership-section {
+    width: 260px;
+    text-align: center;
+}
+.list-of-leaders {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+
+/**********************************/
+/******** WEEKEND SEMINARS ********/
+/**********************************/
+
+/* WEEKEND SEMINARS TEACHERS */
+.teachers-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.teachers {
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}

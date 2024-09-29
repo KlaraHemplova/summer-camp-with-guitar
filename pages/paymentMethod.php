@@ -18,7 +18,7 @@
 
         <div class="container main-title">
             <h1>ZPŮSOB PLATBY</h1>
-            <hr>
+            <hr class="h1-hr">
         </div>
 
         <section class="container">
@@ -30,7 +30,7 @@
             </div>
 
             <div class="payment text-box">
-                <div class="payment-section red">
+                <div class="payment-section text-box-item red">
                     <div class="payment-summer">
                         <h4>LETNÍ TÁBOR</h4>
                         <ul>

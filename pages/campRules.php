@@ -18,7 +18,7 @@
 
         <div class="container main-title">
             <h1>ŘÁD TÁBORA</h1>
-            <hr>
+            <hr class="h1-hr">
             <h4>A VÍKENDOVÝCH KYTAROVÝCH SEMINÁŘŮ</h4>
         </div>
 

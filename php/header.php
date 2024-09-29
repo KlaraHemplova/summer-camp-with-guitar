@@ -15,7 +15,7 @@
 </header>
 
 
-<!-- NAVIGAČNÍ MENU -->
+<!-- NAVIGATION -->
 <div class="navigation" id="nav" style="transform: translateY(-100%);">
 
     <div class="glass-background"></div>

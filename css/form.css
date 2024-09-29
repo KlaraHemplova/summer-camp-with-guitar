@@ -175,7 +175,7 @@ form .experiences {
 form fieldset ul {
     display: flex;
     flex-direction: column;
-    row-gap: 4px;
+    row-gap: 5px;
     padding-left: 17px;
     list-style: disc;
 }

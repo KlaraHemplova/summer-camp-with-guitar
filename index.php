@@ -16,12 +16,13 @@
     <!------- MAIN CONTENT -------->
     <main id="main">
 
+
         <!-- SUMMER CAMP (basic info) -->
         <section class="container">
 
             <div class="main-title">
                 <h1>LETNÍ TÁBOR</h1>
-                <hr>
+                <hr class="h1-hr">
             </div>
 
             <div class="basic-info-flex">
@@ -37,8 +38,8 @@
                     <!-- location -->
                     <div class="location">
                         <div class="location-text">
-                            <div>Pension Jívka&nbsp;II</div>
-                            <div>Jívka 170, 542&nbsp;34 Malé Svatoňovice</div>
+                            <div>Pension Jívka&nbsp;II</div> <!-- areal name -->
+                            <div>Jívka 170, 542&nbsp;34 Malé Svatoňovice</div> <!-- areal adress -->
                         </div>
                         <img class="icon" src="img/icons/green/map.png" alt="ikona mapy">
                     </div>
@@ -54,42 +55,47 @@
 
                     <!-- transport -->
                     <div class="transport">
-                        <div>dopravu si rodiče zajišťují sami</div>
+                        <div class="transport-text">dopravu si rodiče zajišťují sami</div>
                         <img class="icon" src="img/icons/green/car.png" alt="ikona auta">
                     </div>
+                    
                 </div>
 
                 <!-- map -->
                 <iframe class="map" src="https://frame.mapy.cz/s/redazeseje" frameborder="0"></iframe>
+
             </div>
+
         </section>
 
-        <!-- ZAMĚŘENÍ TÁBORA -->
+
+        <!-- CAMP SPECIALIZATION -->
         <section>
 
             <div class="container secondary-title">
                 <h2>ZAMĚŘENÍ TÁBORA</h2>
-                <hr>
+                <hr class="h2-hr">
             </div>
 
             <div class="container specialization text-box">
-                <div class=green>
+                <div class="text-box-item green">
                     <p>Tábor je určen úplným začátečníkům i&nbsp;pokročilým kytaristům. Dolní věková hranice účastníků je 8&nbsp;let.</p>
                 </div>
-                <div class="blue">
+                <div class="text-box-item blue">
                     <p>Výuka je zaměřena na hru akordů, doprovodů, aranžování pro dvě a&nbsp;více kytar, hru s&nbsp;kapodastrem a&nbsp;elementární improvizaci.</p>
                 </div>
-                <div class="pink">
+                <div class="text-box-item pink">
                     <p>Lekce probíhají v&nbsp;šesti až osmičlenných skupinách, které jsou sestaveny tak, aby všichni ve skupině byli na přibližně stejné hráčské úrovni.</p>
                 </div>
-                <div class="orange">
+                <div class="text-box-item orange">
                     <p>Kromě výuky hry na kytaru, která probíhá zhruba tři hodiny denně, je připraven i&nbsp;tradiční táborový program včetně společenských her, sportu, soutěží, výletů, koupání, táborových ohňů apod.</p>
                 </div>
-                <div class="yellow">
+                <div class="text-box-item yellow">
                     <p>Součástí výuky je také možnost vyzkoušet si hru v&nbsp;kapele.</p>
                 </div>
             </div>
 
+            <!-- video section -->
             <div class="video-container">
 
                 <div class="container">
@@ -99,19 +105,19 @@
                     </div>
 
                     <div class="video-box">
-                        <div class="video"> <!-- první video -->
+                        <div class="video">
                             <iframe src="https://www.youtube.com/embed/KnO9Hi-GM5A?si=PrDDQtvEorsGtfML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <div class="centered video-label">Mammas Mammalaid (Chris Gray)</div> <!-- popisek prvního videa -->
+                            <div class="centered video-label">Mammas Mammalaid (Chris Gray)</div>
                         </div>
 
-                        <div class="video"> <!-- druhé video -->
+                        <div class="video">
                             <iframe src="https://www.youtube.com/embed/G_HMrMVQJQQ?si=cSSfvp5cEJnS2Lat" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <div class="centered video-label">Na kraji města (Priessnitz)</div> <!-- popisek druhého videa -->
+                            <div class="centered video-label">Na kraji města (Priessnitz)</div>
                         </div>
 
-                        <div class="video"> <!-- třetí video -->
+                        <div class="video">
                             <iframe src="https://www.youtube.com/embed/U3Va5Z4QwP8?si=vaCSR4F9atm5bL9S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <div class="centered video-label">Redemption (Joe Bonamassa)</div> <!-- popisek třetího videa -->
+                            <div class="centered video-label">Redemption (Joe Bonamassa)</div>
                         </div>
                     </div>
 
@@ -121,56 +127,69 @@
 
         </section>
 
-        <!-- VEDENÍ TÁBORA -->
+
+        <!-- CAMP LEADERSHIP -->
         <section class="container">
 
             <div class="secondary-title">
                 <h2>VEDENÍ TÁBORA</h2>
-                <hr>
+                <hr class="h2-hr">
             </div>
 
             <div class="leadership text-box">
-                <div class="leadership-section green">
+
+                <!-- main leader -->
+                <div class="leadership-section text-box-item green">
                     <h4>Hlavní vedoucí</h4>
-                    <hr>
-                    <div class="bold">Rostislav Coufal</div> <!-- hl. vedoucí -->
-                    <div class="small-text margin-bottom10">pedagog ZUŠ Střezina HK</div> <!-- funkce -->
-                    <div><a href="mailto:rosta.coufal@seznam.cz">rosta.coufal@seznam.cz</a></div> <!-- mail (nutné přepsat i v "mailto:") -->
-                    <div>+420 777 084 774</div> <!-- telefonní číslo -->
+                    <hr class="h4-hr">
+                    <div class="bold">Rostislav Coufal</div>
+                    <div class="small-text margin-bottom-10px">pedagog ZUŠ Střezina HK</div>
+                    <div><a href="mailto:rosta.coufal@seznam.cz">rosta.coufal@seznam.cz</a></div>
+                    <div>+420 777 084 774</div>
                 </div>
-                <div class="leadership-section green">
+
+                <!-- teachers -->
+                <div class="leadership-section text-box-item green">
                     <h4>Vyučující</h4>
-                    <hr>
-                    <div>Eliška Bartoníčková</div> <!-- vyučující -->
-                    <div>Markéta Mourková</div> <!-- vyučující -->
-                    <div>Markéta Matoušková</div> <!-- vyučující -->
-                    <div>Petr Tobišek</div> <!-- vyučující -->
-                    <div>Kristián Kalig</div> <!-- vyučující -->
+                    <hr class="h4-hr">
+                    <div class="list-of-leaders">
+                        <div>Eliška Bartoníčková</div>
+                        <div>Markéta Mourková</div>
+                        <div>Markéta Matoušková</div>
+                        <div>Petr Tobišek</div>
+                        <div>Kristián Kalig</div>
+                    </div>
                 </div>
-                <div class="leadership-section green">
+
+                <!-- game leaders -->
+                <div class="leadership-section text-box-item green">
                     <h4>Odpolední program</h4>
-                    <hr>
-                    <div>Lucie Janečková</div> <!-- vedoucí na odp. program -->
-                    <div>Barbora Hesounová</div> <!-- vedoucí na odp. program -->
+                    <hr class="h4-hr">
+                    <div class="list-of-leaders">
+                        <div>Lucie Janečková</div>
+                        <div>Barbora Hesounová</div>
+                    </div>
                 </div>
+
             </div>
 
             <button class="green" type="button" onclick="location.href='pages/campLeadership.php'">Více o vedoucích&hellip;</button>
 
         </section>
         
-        <!-- DENNÍ HARMONOGRAM TÁBORA -->
+        <!-- CAMP DAILY SCHEDULE -->
         <section class="container">
 
             <div class="secondary-title">
                 <h2>DENNÍ HARMONOGRAM</h2>
-                <hr>
+                <hr class="h2-hr">
             </div>
 
-            <!-- notýsek -->
+            <!-- WRAPPER -->
             <div class="wrapper">
                 <div class="note">
 
+                    <!-- wrapper spiral part -->
                     <div class="spiral-part">
                         <div class="spiral">
                             <div class="hole"></div>
@@ -227,7 +246,7 @@
                     </div>
 
                     <div class="daily-schedule">
-                        <!-- tabulka s harmonogramem -->
+                        <!-- daily schedule table -->
                         <table rules="none"><col span="3"><col style="width: 30px;"><col>
                             <tr><td>7.30</td>   <td></td>   <td></td>       <td></td>   <td>budíček</td></tr>
                             <tr><td>7.45</td>   <td></td>   <td></td>       <td></td>   <td>rozcvička</td></tr>
@@ -243,7 +262,6 @@
                             <tr><td>22.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků do 15&nbsp;let</td></tr>
                             <tr><td>23.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků nad 15&nbsp;let</td></tr>
                         </table>
-                        <!-- /tabulka s harmonogramem -->
                     </div>
 
                 </div>
@@ -255,16 +273,16 @@
 
         </section>
 
-        <!-- CO S SEBOU NA TÁBOR -->
+        <!-- CAMP PROPERTIES -->
         <section class="container">
 
             <div class="secondary-title">
                 <h2>CO S SEBOU NA TÁBOR</h2>
-                <hr>
+                <hr class="h2-hr">
             </div>
 
             <div class="properties text-box">
-                <div class="yellow">
+                <div class="text-box-item yellow">
                     <h4>Obecné</h4>
                     <ul>
                         <li>dostatek pohodlného oblečení</li>
@@ -277,7 +295,7 @@
                     </ul>
                 </div>
 
-                <div class="green">
+                <div class="text-box-item green">
                     <h4>Dokumenty</h4>
                     <ul>
                         <li>karta zdravotní pojišťovny</li>
@@ -287,7 +305,7 @@
                     </ul>
                 </div>
 
-                <div class="blue">
+                <div class="text-box-item blue">
                     <h4>Kytara</h4>
                     <ul>
                         <li>kytara</li>
@@ -306,7 +324,7 @@
     </main>
 
 
-    <!------- PATIČKA -------->
+    <!------- FOOTER -------->
     <?php include_once "php/footer.php"; ?>
 
 </body>

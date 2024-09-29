@@ -18,7 +18,7 @@
 
         <div class="container main-title">
             <h1>VEDENÍ TÁBORA</h1>
-            <hr>
+            <hr class="h1-hr">
         </div>
 
     </main>
