@@ -283,34 +283,6 @@ div.yellow {
 
 
 
-/*** DENNÍ HARMONOGRAM TÁBOR ***/
-/* notýsek */
-
-
-/* tabulka v notýsku */
-.daily-schedule {
-    margin: 25px;
-}
-
-.daily-schedule th {
-    text-align: left;
-}
-
-.daily-schedule table tr {
-    border-bottom: 1.5px solid var(--gray0);
-    height: 30px;
-}
-
-.daily-schedule table td {
-    text-align: left;
-    padding: 0px 3px;
-}
-
-.daily-schedule table td:first-child {
-    text-align: right;
-}
-
-
 /**********************************/
 /******* VÍKENDOVÉ SEMINÁŘE *******/
 /**********************************/

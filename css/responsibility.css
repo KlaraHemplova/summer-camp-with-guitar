@@ -376,16 +376,13 @@
         width: 100%;
     }  
 
-
-
-    /*** HARMONOGRAM TÁBORA ***/
+    /* DAILY SCHEDULE table */
+    .daily-schedule {
+        margin: 20px;
+    }
     .daily-schedule table td {
         padding-top: 7px;
         padding-bottom: 7px;
-    }
-
-    .daily-schedule {
-        margin: 20px;
     }
 
 

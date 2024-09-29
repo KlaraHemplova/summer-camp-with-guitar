@@ -210,31 +210,31 @@
 
                     <div class="daily-schedule">
                         <!-- weekend seminar schedule table -->
-                        <table rules="none"><col span="3"><col style="width: 30px;"><col>
+                        <table rules="none">
                             <tr><th colspan="5">Pátek</th></tr>
-                            <tr><td>18.30</td>  <td>–</td>  <td>19.00</td>  <td></td>   <td>příjezd účastníků</td></tr>
-                            <tr><td>19.15</td>  <td></td>   <td></td>       <td></td>   <td>večeře</td></tr>
-                            <tr><td>20.00</td>  <td></td>   <td></td>       <td></td>   <td>seznámení s řádem semináře atd.</td></tr>
-                            <tr><td>22.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků do 15&nbsp;let</td></tr>
-                            <tr><td>23.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků nad 15&nbsp;let</td></tr>
+                            <tr><td>18.30</td>  <td>–</td>  <td>19.00</td>  <td>příjezd účastníků</td></tr>
+                            <tr><td>19.15</td>  <td></td>   <td></td>       <td>večeře</td></tr>
+                            <tr><td>20.00</td>  <td></td>   <td></td>       <td>seznámení s řádem semináře atd.</td></tr>
+                            <tr><td>22.00</td>  <td></td>   <td></td>       <td>večerka účastníků do 15&nbsp;let</td></tr>
+                            <tr><td>23.00</td>  <td></td>   <td></td>       <td>večerka účastníků nad 15&nbsp;let</td></tr>
                             <tr><td colspan="5"></td></tr>
                             <tr><th colspan="5">Sobota</th></tr>
-                            <tr><td>8.00</td>   <td></td>   <td></td>       <td></td>   <td>snídaně</td></tr>
-                            <tr><td>9.00</td>   <td>–</td>  <td>12.00</td>  <td></td>   <td>výuka</td></tr>
-                            <tr><td>12.00</td>  <td>–</td>  <td>14.30</td>  <td></td>   <td>oběd a&nbsp;polední klid</td></tr>
-                            <tr><td>14.30</td>  <td>–</td>  <td>17.30</td>  <td></td>   <td>výuka</td></tr>
-                            <tr><td>18.00</td>  <td></td>   <td></td>       <td></td>   <td>večeře</td></tr>
-                            <tr><td>19.30</td>  <td>–</td>  <td>20.15</td>  <td></td>   <td>společné hraní (1.–3.&nbsp;skupina)</td></tr>
-                            <tr><td>20.15</td>  <td>–</td>  <td>21.00</td>  <td></td>   <td>společné hraní (4.–6.&nbsp;skupina)</td></tr>
-                            <tr><td>22.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků do 15&nbsp;let</td></tr>
-                            <tr><td>23.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků nad 15&nbsp;let</td></tr>
+                            <tr><td>8.00</td>   <td></td>   <td></td>       <td>snídaně</td></tr>
+                            <tr><td>9.00</td>   <td>–</td>  <td>12.00</td>  <td>výuka</td></tr>
+                            <tr><td>12.00</td>  <td>–</td>  <td>14.30</td>  <td>oběd a&nbsp;polední klid</td></tr>
+                            <tr><td>14.30</td>  <td>–</td>  <td>17.30</td>  <td>výuka</td></tr>
+                            <tr><td>18.00</td>  <td></td>   <td></td>       <td>večeře</td></tr>
+                            <tr><td>19.30</td>  <td>–</td>  <td>20.15</td>  <td>společné hraní (1.–3.&nbsp;skupina)</td></tr>
+                            <tr><td>20.15</td>  <td>–</td>  <td>21.00</td>  <td>společné hraní (4.–6.&nbsp;skupina)</td></tr>
+                            <tr><td>22.00</td>  <td></td>   <td></td>       <td>večerka účastníků do 15&nbsp;let</td></tr>
+                            <tr><td>23.00</td>  <td></td>   <td></td>       <td>večerka účastníků nad 15&nbsp;let</td></tr>
                             <tr><td colspan="5"></td></tr>
                             <tr><th colspan="5">Neděle</th></tr>
-                            <tr><td>8.00</td>   <td></td>   <td></td>       <td></td>   <td>snídaně</td></tr>
-                            <tr><td>9.00</td>   <td>–</td>  <td>12.00</td>  <td></td>   <td>výuka</td></tr>
-                            <tr><td>12.00</td>  <td>–</td>  <td>13.30</td>  <td></td>   <td>oběd a&nbsp;polední klid</td></tr>
-                            <tr><td>13.30</td>  <td>–</td>  <td>14.30</td>  <td></td>   <td>společné hraní (všichni)</td></tr>
-                            <tr><td>14.30</td>  <td></td>   <td></td>       <td></td>   <td>odjezd účastníků</td></tr>
+                            <tr><td>8.00</td>   <td></td>   <td></td>       <td>snídaně</td></tr>
+                            <tr><td>9.00</td>   <td>–</td>  <td>12.00</td>  <td>výuka</td></tr>
+                            <tr><td>12.00</td>  <td>–</td>  <td>13.30</td>  <td>oběd a&nbsp;polední klid</td></tr>
+                            <tr><td>13.30</td>  <td>–</td>  <td>14.30</td>  <td>společné hraní (všichni)</td></tr>
+                            <tr><td>14.30</td>  <td></td>   <td></td>       <td>odjezd účastníků</td></tr>
                         </table>
                     </div>
 

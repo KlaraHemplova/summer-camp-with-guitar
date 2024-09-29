@@ -247,20 +247,20 @@
 
                     <div class="daily-schedule">
                         <!-- daily schedule table -->
-                        <table rules="none"><col span="3"><col style="width: 30px;"><col>
-                            <tr><td>7.30</td>   <td></td>   <td></td>       <td></td>   <td>budíček</td></tr>
-                            <tr><td>7.45</td>   <td></td>   <td></td>       <td></td>   <td>rozcvička</td></tr>
-                            <tr><td>8.00</td>   <td></td>   <td></td>       <td></td>   <td>snídaně</td></tr>
-                            <tr><td>9.00</td>   <td>–</td>  <td>13.00</td>  <td></td>   <td>výuka hry na kytaru ve skupinách</td></tr>
-                            <tr><td>13.00</td>  <td>–</td>  <td>15.00</td>  <td></td>   <td>oběd a&nbsp;polední klid</td></tr>
-                            <tr><td>15.00</td>  <td>–</td>  <td>16.00</td>  <td></td>   <td>hra v&nbsp;kapelách</td></tr>
-                            <tr><td>16.00</td>  <td></td>   <td></td>       <td></td>   <td>svačina</td></tr>
-                            <tr><td>16.15</td>  <td>–</td>  <td>18.00</td>  <td></td>   <td>odpolední program (hry, sport)</td></tr>
-                            <tr><td>19.00</td>  <td></td>   <td></td>       <td></td>   <td>večeře</td></tr>
-                            <tr><td>19.45</td>  <td>–</td>  <td>20.30</td>  <td></td>   <td>společné hraní (1.–3.&nbsp;skupina)</td></tr>
-                            <tr><td>20.30</td>  <td>–</td>  <td>21.15</td>  <td></td>   <td>společné hraní (4.–7.&nbsp;skupina)</td></tr>
-                            <tr><td>22.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků do 15&nbsp;let</td></tr>
-                            <tr><td>23.00</td>  <td></td>   <td></td>       <td></td>   <td>večerka účastníků nad 15&nbsp;let</td></tr>
+                        <table rules="none">
+                            <tr><td>7.30</td>   <td></td>   <td></td>       <td>budíček</td></tr>
+                            <tr><td>7.45</td>   <td></td>   <td></td>       <td>rozcvička</td></tr>
+                            <tr><td>8.00</td>   <td></td>   <td></td>       <td>snídaně</td></tr>
+                            <tr><td>9.00</td>   <td>–</td>  <td>13.00</td>  <td>výuka hry na kytaru ve skupinách</td></tr>
+                            <tr><td>13.00</td>  <td>–</td>  <td>15.00</td>  <td>oběd a&nbsp;polední klid</td></tr>
+                            <tr><td>15.00</td>  <td>–</td>  <td>16.00</td>  <td>hra v&nbsp;kapelách</td></tr>
+                            <tr><td>16.00</td>  <td></td>   <td></td>       <td>svačina</td></tr>
+                            <tr><td>16.15</td>  <td>–</td>  <td>18.00</td>  <td>odpolední program (hry, sport)</td></tr>
+                            <tr><td>19.00</td>  <td></td>   <td></td>       <td>večeře</td></tr>
+                            <tr><td>19.45</td>  <td>–</td>  <td>20.30</td>  <td>společné hraní (1.–3.&nbsp;skupina)</td></tr>
+                            <tr><td>20.30</td>  <td>–</td>  <td>21.15</td>  <td>společné hraní (4.–7.&nbsp;skupina)</td></tr>
+                            <tr><td>22.00</td>  <td></td>   <td></td>       <td>večerka účastníků do 15&nbsp;let</td></tr>
+                            <tr><td>23.00</td>  <td></td>   <td></td>       <td>večerka účastníků nad 15&nbsp;let</td></tr>
                         </table>
                     </div>
 

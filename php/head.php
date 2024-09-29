@@ -3,6 +3,7 @@
     <meta name="robots" content="noindex">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
 
     <!------- TITLE -------->
     <title>Letní tábor s kytarou</title>
