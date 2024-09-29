@@ -1,9 +1,15 @@
 /* X-LARGE container ≤ 1400px */
 @media only screen and (max-width: 1400px) {
 
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* MAIN CONTAINER */
     .container {
         width: 1140px;
     }
+
 
     /**********************************/
     /******** CAMP AND SEMINARS *******/
@@ -17,12 +23,20 @@
 
 
 
+
+
 /* LARGE container ≤ 1200px */
 @media only screen and (max-width: 1200px) {
 
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* MAIN CONTAINER */
     .container {
         width: 960px;
     }
+
 
     /**********************************/
     /******** CAMP AND SEMINARS *******/
@@ -44,7 +58,6 @@
     }
 
 
-
     /**********************************/
     /************* FOOTER *************/
     /**********************************/
@@ -57,13 +70,19 @@
 
 
 
+
+
 /* MEDIUM container ≤ 992px */
 @media only screen and (max-width: 992px) {
 
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* MAIN CONTAINER */
     .container {
         width: 720px;
     }
-
 
 
     /**********************************/
@@ -74,7 +93,6 @@
     .logo-header {
         max-height: 250px;
     }
-
 
 
     /**********************************/
@@ -122,7 +140,6 @@
     }
 
 
-
     /**********************************/
     /*********** APPLICATION **********/
     /**********************************/
@@ -143,8 +160,34 @@
 
 
 
+
+
 /* SMALL container ≤ 768px */
 @media only screen and (max-width: 768px) {
+
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* WHOLE PAGE */
+    main {
+        margin-top: 40px;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* TEXT BOX */
+    .text-box {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
 
     /**********************************/
     /******* MOBILE NAVIGATION ********/
@@ -225,31 +268,12 @@
     }
 
 
-
-    main {
-        margin-top: 40px;
-    }
-
-    .container {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .text-box {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-    }
-
-
-
     /**********************************/
     /******** CAMP AND SEMINARS *******/
     /**********************************/
 
     /* CAMP SPECIALIZATION */
-    .specialization {
+    .specialization > .text-box-item {
         flex-direction: column;
         row-gap: 20px;
         width: calc(100% - 60px);
@@ -261,7 +285,6 @@
     .payment-section {
         width: 100%;
     }
-
 
 
     /**********************************/
@@ -284,7 +307,6 @@
     }
 
 
-
     /**********************************/
     /************* FOOTER *************/
     /**********************************/
@@ -301,14 +323,21 @@
 
 
 
+
+
 /* X-SMALL container ≤ 576px*/
 @media only screen and (max-width: 576px) {
-    
-    /*** HLAVNÍ NADPIS ***/
+
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* GLOBAL TEXTS (main title) */
     .h1-hr {
         visibility: hidden;
     }
     
+
     /**********************************/
     /******** CAMP AND SEMINARS *******/
     /**********************************/
@@ -343,7 +372,7 @@
     }
 
     /* CAMP SPECIALIZATION */
-    .specialization {
+    .specialization > .text-box-item {
         width: 100%;
     }  
 
@@ -358,7 +387,6 @@
     .daily-schedule {
         margin: 20px;
     }
-
 
 
     /**********************************/
@@ -376,7 +404,6 @@
     }
     
 
-
     /**********************************/
     /************* FOOTER *************/
     /**********************************/
@@ -389,23 +416,31 @@
 
 
 
+
+
 /* XX-SMALL container < 350px*/
 @media only screen and (max-width: 350px) {
 
+    /**********************************/
+    /************* GLOBAL *************/
+    /**********************************/
+
+    /* MAIN CONTAINER */
     .container {
         padding-left: 15px;
         padding-right: 15px;
     }
 
+    /* GLOBAL TEXTS (main and secondary title) */
     .h1-hr,
     .h2-hr {
         display: none;
     }
 
+    /* TEXT BOX */
     .text-box > .text-box-item {
         width: 100%;
     }
-
 
 
     /**********************************/
@@ -416,7 +451,6 @@
     .logo-header {
         padding-top: 80px;
     }
-
 
 
     /**********************************/
@@ -437,7 +471,6 @@
     .wrapper .note .spiral-part .spiral:nth-child(12) {
         display: none
     }
-
 
 
     /**********************************/
