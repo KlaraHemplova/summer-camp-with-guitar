@@ -35,8 +35,14 @@
         width: 305px;
     }
 
-    /*** PATIČKA ***/
-    footer img {
+
+
+    /**********************************/
+    /************* FOOTER *************/
+    /**********************************/
+
+    /* footer sections */
+    footer .container > img /* logo */ {
         display: none;
     }
 }
@@ -145,6 +151,7 @@
         height: 490px;
     }
 
+    /* background */
     .glass-background {
         height: 490px;
         backdrop-filter: blur(12px);
@@ -250,13 +257,18 @@
         border-color: var(--gray0);
     }
 
-    /*** PATIČKA ***/
-    footer .text-box {
+
+
+    /**********************************/
+    /************* FOOTER *************/
+    /**********************************/
+    
+    /* footer sections */
+    footer .container {
         flex-direction: column;
         row-gap: 25px;
     }
-
-    footer .text-box div {
+    footer .container > div {
         width: 100%;
     }
 }
@@ -323,8 +335,14 @@
         font-size: 12px;
     }
     
-    /*** PATIČKA ***/
-    .footer-img {
+
+
+    /**********************************/
+    /************* FOOTER *************/
+    /**********************************/
+
+    /* guitar heads img */
+    .guitar-heads {
         height: 120px;
     }
 }

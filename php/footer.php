@@ -1,6 +1,6 @@
 <footer id="footer">
 
-    <div class="footer-img"></div>
+    <div class="guitar-heads"></div>
 
     <div class="footer-background">
 
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="website-author">&#169; Klára Hemplová 2024</div>
+        <div class="copyright">&#169;&nbsp;Klára&nbsp;Hemplová&nbsp;2024</div>
 
     </div>
 

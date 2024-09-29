@@ -1,0 +1,81 @@
+/**********************************/
+/************* FOOTER *************/
+/**********************************/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* guitar heads img */
+.guitar-heads {
+    height: 150px;
+    background-image: url("../img/guitarHeads.png");
+    background-size: auto 100%;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    opacity: 0.7;
+}
+
+/* background */
+.footer-background {
+    height: fit-content;
+    background-image: linear-gradient(180deg, var(--black), var(--blackTrans)),
+    radial-gradient(ellipse at bottom left, var(--blue), transparent 60%),
+    radial-gradient(ellipse at bottom right, var(--pink), transparent 60%),
+    radial-gradient(ellipse at 80% 80%, var(--orange), transparent 60%), 
+    radial-gradient(ellipse at 20% 80%, var(--green), transparent 60%),
+    radial-gradient(ellipse at center center, var(--yellow), transparent 60%);
+}
+
+/* footer sections */
+footer .container {
+    padding-top: 45px;
+}
+footer .container > img /* logo */ {
+    height: 160px;
+    width: auto;
+    margin-right: 50px;
+    opacity: 0.8;
+}
+footer .container > div {
+    width: 280px;
+    height: fit-content;
+    border-radius: 0px !important;
+    padding: 0px 10px !important;
+}
+
+/* footer text styles */
+footer .text-box > div > h4 {
+    color: var(--whiteTrans2);
+    margin-bottom: 10px;
+}
+footer .text-box p {
+    color: var(--gray2);
+}
+footer .text-box > div > ul {
+    list-style: none;
+}
+footer .text-box > div > ul > li {
+    color: var(--gray2);
+    margin-bottom: 8px;
+}
+
+/* footer links */
+footer .text-box > div > ul > li > a,
+footer .text-box p > a {
+    color: var(--gray2);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* copyright */
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray2);
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 1px solid var(--gray3);
+}
