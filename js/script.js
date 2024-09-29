@@ -19,7 +19,7 @@ function toggleMenu(mobileButton) {
 
 
 // ZKOPÍROVÁNÍ ČÍSLA ÚČTU PO KLIKNUTÍ
-document.getElementById("accountNumberToCopy")?.addEventListener('click', function() {
+function accountNumberToCopy() {
 
     var accountNumber = this.innerText;
 
@@ -28,7 +28,9 @@ document.getElementById("accountNumberToCopy")?.addEventListener('click', functi
     }).catch(function(err) {
         console.error('Něco se pokazilo', err);
     });
-})
+}
+
+document.getElementById("accountNumberToCopy")?.addEventListener('click', accountNumberToCopy);
 
 
 
