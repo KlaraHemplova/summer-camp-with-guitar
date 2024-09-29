@@ -25,14 +25,14 @@ form fieldset > legend {
 }
 
 /* form inputs TEXT, TEXTAREA, TEL, EMAIL */
+form input,
+form textarea {
+    outline: none;
+}
 form input::placeholder,
 form textarea::placeholder {
     color: var(--gray1);
     font-weight: 300;
-}
-form input,
-form textarea {
-    outline: none;
 }
 
 form textarea,
@@ -56,7 +56,7 @@ form textarea {
     resize: none;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 75px;
+    height: 100px;
 }
 form textarea::-webkit-scrollbar {
     width: 8px;

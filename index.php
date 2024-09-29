@@ -1,4 +1,4 @@
-<?php $page = "home"; ?>
+<?php $page = "summerCamp"; ?>
 
 <!DOCTYPE html>
 <html lang="cs">
@@ -74,11 +74,21 @@
             </div>
 
             <div class="container specialization text-box">
-                <div class=green><p>Tábor je určen úplným začátečníkům i&nbsp;pokročilým kytaristům. Dolní věková hranice účastníků je 8&nbsp;let.</p></div>
-                <div class="blue"><p>Výuka je zaměřena na hru akordů, doprovodů, aranžování pro dvě a&nbsp;více kytar, hru s&nbsp;kapodastrem a&nbsp;elementární improvizaci.</p></div>
-                <div class="pink"><p>Lekce probíhají v&nbsp;šesti až osmičlenných skupinách, které jsou sestaveny tak, aby všichni ve skupině byli na přibližně stejné hráčské úrovni.</p></div>
-                <div class="orange"><p>Kromě výuky hry na kytaru, která probíhá zhruba tři hodiny denně, je připraven i&nbsp;tradiční táborový program včetně společenských her, sportu, soutěží, výletů, koupání, táborových ohňů apod.</p></div>
-                <div class="yellow"><p>Součástí výuky je také možnost vyzkoušet si hru v&nbsp;kapele.</p></div>
+                <div class=green>
+                    <p>Tábor je určen úplným začátečníkům i&nbsp;pokročilým kytaristům. Dolní věková hranice účastníků je 8&nbsp;let.</p>
+                </div>
+                <div class="blue">
+                    <p>Výuka je zaměřena na hru akordů, doprovodů, aranžování pro dvě a&nbsp;více kytar, hru s&nbsp;kapodastrem a&nbsp;elementární improvizaci.</p>
+                </div>
+                <div class="pink">
+                    <p>Lekce probíhají v&nbsp;šesti až osmičlenných skupinách, které jsou sestaveny tak, aby všichni ve skupině byli na přibližně stejné hráčské úrovni.</p>
+                </div>
+                <div class="orange">
+                    <p>Kromě výuky hry na kytaru, která probíhá zhruba tři hodiny denně, je připraven i&nbsp;tradiční táborový program včetně společenských her, sportu, soutěží, výletů, koupání, táborových ohňů apod.</p>
+                </div>
+                <div class="yellow">
+                    <p>Součástí výuky je také možnost vyzkoušet si hru v&nbsp;kapele.</p>
+                </div>
             </div>
 
             <div class="video-container">
@@ -146,7 +156,7 @@
                 </div>
             </div>
 
-            <button class="green" type="button" onclick="location.href='pages/vedeniTabora.php'">Více o vedoucích&hellip;</button>
+            <button class="green" type="button" onclick="location.href='pages/campLeadership.php'">Více o vedoucích&hellip;</button>
 
         </section>
         
@@ -242,7 +252,7 @@
 
             <div class="centered">Pro všechny účastníky platí <span class="bold">Řád letního tábora s kytarou a víkendových kytarových seminářů</span>.</div>
 
-            <button class="green" type="button" onclick="location.href='pages/radTabora.php'">Přečíst si řád</button>
+            <button class="green" type="button" onclick="location.href='pages/campRules.php'">Přečíst si řád</button>
 
         </section>
 

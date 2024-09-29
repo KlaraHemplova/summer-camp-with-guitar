@@ -1,4 +1,4 @@
-<?php $page = "form"; ?>
+<?php $page = "application"; ?>
 
 <!DOCTYPE html>
 <html lang="cs">
@@ -22,7 +22,7 @@
         </div>
 
         <div class="container">
-            <form id="application" action="../php/sendMail.php" method="post">
+            <form id="application" action="../php/sendApplication.php" method="post">
 
                 <!-- ACTION TYPE -->
                 <fieldset>

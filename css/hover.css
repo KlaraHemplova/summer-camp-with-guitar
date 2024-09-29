@@ -30,25 +30,25 @@
         font-size: 14px;
         color: var(--white);
     }
-    .letni-tabor:hover {
+    .summer-camp:hover {
         border-bottom: 1px solid var(--green);
     }
-    .vikendove-seminare:hover {
+    .weekend-seminars:hover {
         border-bottom: 1px solid var(--blue);
     }
-    .vedeni-tabora:hover {
+    .camp-leadership:hover {
         border-bottom: 1px solid var(--purple);
     }
-    .prihlaska:hover {
+    .application:hover {
         border-bottom: 1px solid var(--pink);
     }
-    .zpusob-platby:hover {
+    .payment-method:hover {
         border-bottom: 1px solid var(--red);
     }
-    .fotogalerie:hover {
+    .photogallery:hover {
         border-bottom: 1px solid var(--orange);
     }
-    .rad-tabora:hover {
+    .camp-rules:hover {
         border-bottom: 1px solid var(--yellow);
     }
 

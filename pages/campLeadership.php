@@ -1,4 +1,4 @@
-<?php $page = "leadership"; ?>
+<?php $page = "campLeadership"; ?>
 
 <!DOCTYPE html>
 <html lang="cs">

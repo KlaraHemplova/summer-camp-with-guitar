@@ -196,25 +196,25 @@
     .navigation > nav > ul > li > a.active {
         border-bottom: 1px transparent;
     }
-    .letni-tabor.active {
+    .summer-camp.active {
         background-color: var(--greenTrans1);
     }
-    .vikendove-seminare.active {
+    .weekend-seminars.active {
         background-color: var(--blueTrans1);
     }
-    .vedeni-tabora.active {
+    .camp-leadership.active {
         background-color: var(--purpleTrans);
     }
-    .prihlaska.active {
+    .application.active {
         background-color: var(--pinkTrans);
     }
-    .zpusob-platby.active {
+    .payment-method.active {
         background-color: var(--redTrans);
     }
-    .fotogalerie.active {
+    .photogallery.active {
         background-color: var(--orangeTrans);
     }
-    .rad-tabora.active {
+    .camp-rules.active {
         background-color: var(--yellowTrans2);
     }
 

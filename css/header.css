@@ -89,25 +89,25 @@ nav > ul > li > a {
     font-size: 14px;
     color: var(--white);
 }
-.letni-tabor.active {
+.summer-camp.active {
     border-bottom: 1px solid var(--green);
 }
-.vikendove-seminare.active {
+.weekend-seminars.active {
     border-bottom: 1px solid var(--blue);
 }
-.vedeni-tabora.active {
+.camp-leadership.active {
     border-bottom: 1px solid var(--purple);
 }
-.prihlaska.active {
+.application.active {
     border-bottom: 1px solid var(--pink);
 }
-.zpusob-platby.active {
+.payment-method.active {
     border-bottom: 1px solid var(--red);
 }
-.fotogalerie.active {
+.photogallery.active {
     border-bottom: 1px solid var(--orange);
 }
-.rad-tabora.active {
+.camp-rules.active {
     border-bottom: 1px solid var(--yellow);
 }
 

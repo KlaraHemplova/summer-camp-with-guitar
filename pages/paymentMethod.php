@@ -1,4 +1,4 @@
-<?php $page = "payment"; ?>
+<?php $page = "paymentMethod"; ?>
 
 <!DOCTYPE html>
 <html lang="cs">

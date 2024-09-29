@@ -1,4 +1,4 @@
-<?php $page = "gallery"; ?>
+<?php $page = "photogallery"; ?>
 
 <!DOCTYPE html>
 <html lang="cs">

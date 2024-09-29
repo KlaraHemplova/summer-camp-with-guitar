@@ -22,13 +22,13 @@
 
     <nav>
         <ul>
-            <li><a href="/index.php" class="letni-tabor <?php echo ($page === "home" ? "active" : "") ?>">Letní tábor</a></li>
-            <li><a href="/pages/vikendoveSeminare.php" class="vikendove-seminare <?php echo ($page === "weekends" ? "active" : "") ?>">Víkendové semináře</a></li>
-            <li><a href="/pages/vedeniTabora.php" class="vedeni-tabora <?php echo ($page === "leadership" ? "active" : "") ?>">Vedení tábora</a></li>
-            <li><a href="/pages/prihlaska.php" class="prihlaska <?php echo ($page === "form" ? "active" : "") ?>">Přihláška</a></li>
-            <li><a href="/pages/zpusobPlatby.php" class="zpusob-platby <?php echo ($page === "payment" ? "active" : "") ?>">Způsob platby</a></li>
-            <li><a href="/pages/fotogalerie.php" class="fotogalerie <?php echo ($page === "gallery" ? "active" : "") ?>">Fotogalerie</a></li>
-            <li><a href="/pages/radTabora.php" class="rad-tabora <?php echo ($page === "rules" ? "active" : "") ?>">Řád tábora</a></li>
+            <li><a href="/index.php" class="summer-camp <?php echo ($page === "summerCamp" ? "active" : "") ?>">Letní tábor</a></li>
+            <li><a href="/pages/weekendSeminars.php" class="weekend-seminars <?php echo ($page === "weekendSeminars" ? "active" : "") ?>">Víkendové semináře</a></li>
+            <li><a href="/pages/campLeadership.php" class="camp-leadership <?php echo ($page === "campLeadership" ? "active" : "") ?>">Vedení tábora</a></li>
+            <li><a href="/pages/application.php" class="application <?php echo ($page === "application" ? "active" : "") ?>">Přihláška</a></li>
+            <li><a href="/pages/paymentMethod.php" class="payment-method <?php echo ($page === "paymentMethod" ? "active" : "") ?>">Způsob platby</a></li>
+            <li><a href="/pages/photogallery.php" class="photogallery <?php echo ($page === "photogallery" ? "active" : "") ?>">Fotogalerie</a></li>
+            <li><a href="/pages/campRules.php" class="camp-rules <?php echo ($page === "campRules" ? "active" : "") ?>">Řád tábora</a></li>
         </ul>
     </nav>
 
