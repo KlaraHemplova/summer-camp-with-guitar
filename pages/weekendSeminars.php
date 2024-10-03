@@ -84,34 +84,55 @@
                 <div class="weekends-section text-box-item purple">
                     <h4>2024</h4> <!-- current year -->
                     <hr class="h4-hr">
-                    <table rules="none">
-                        <tr class="display-none"><td>31.–2.</td><td>únor</td></tr>
-                        <tr class="display-none"><td>7.–9.</td><td>duben</td></tr>
-                        <tr class="display-none"><td>6.–8.</td><td>červen</td></tr>
-                        <tr><td>18.–20.</td><td>říjen</td></tr>
-                    </table>
+
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">18.–20.</div>
+                        <div class="seminar-date month">říjen</div>
+                    </div>
                 </div>
 
                 <div class="weekends-section text-box-item blue">
                     <h4>2025</h4> <!-- next year -->
                     <hr class="h4-hr">
-                    <table rules="none">
-                        <tr><td>31.–2.</td><td>leden/únor</td></tr>
-                        <tr><td>7.–9.</td><td>březen</td></tr>
-                        <tr><td>6.–8.</td><td>červen</td></tr>
-                        <tr><td>3.–5.</td><td>říjen</td></tr>
-                    </table>
+
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">31.–2.</div>
+                        <div class="seminar-date month">leden/únor</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">7.–9.</div>
+                        <div class="seminar-date month">březen</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">6.–8.</div>
+                        <div class="seminar-date month">červen</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">3.–5.</div>
+                        <div class="seminar-date month">říjen</div>
+                    </div>
                 </div>
 
                 <div class="weekends-section text-box-item pink">
                     <h4>2026</h4> <!-- year after next year -->
                     <hr class="h4-hr">
-                    <table rules="none">
-                        <tr><td>6.–8.</td><td>únor</td></tr>
-                        <tr><td>10.–12.</td><td>duben</td></tr>
-                        <tr><td>12.–14.</td><td>červen</td></tr>
-                        <tr><td>2.–4.</td><td>říjen</td></tr>
-                    </table>
+
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">6.–8.</div>
+                        <div class="seminar-date month">únor</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">10.–12.</div>
+                        <div class="seminar-date month">duben</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">12.–14.</div>
+                        <div class="seminar-date month">červen</div>
+                    </div>
+                    <div class="seminar-date-row">
+                        <div class="seminar-date days">2.–4.</div>
+                        <div class="seminar-date month">říjen</div>
+                    </div>
                 </div>
             </div>
 
