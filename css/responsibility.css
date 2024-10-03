@@ -390,7 +390,10 @@
     .daily-schedule table td {
         padding-top: 7px;
         padding-bottom: 7px;
-        font-size: 12px;
+        font-size: 13px;
+    }
+    .daily-schedule table td:last-child {
+        padding-left: 20px;
     }
 
 
