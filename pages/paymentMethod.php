@@ -35,7 +35,7 @@
                         <h4>LETNÍ TÁBOR</h4>
                         <ul>
                             <li>Zálohu ve výši <span class="bold">3000&nbsp;Kč</span> je nutno uhradit nejpozději do <span class="bold">30. dubna 2025</span>.</li>
-                            <li>Zbylou částku ve výši <span class="bold">2300&nbsp;Kč</span> pak uhraďte do <span class="bold">30. června 2025</span>.</li>
+                            <li>Zbylou částku ve výši <span class="bold">2300&nbsp;Kč</span> pak prosím uhraďte do <span class="bold">30. června 2025</span>.</li>
                         </ul>
                     </div>
 
