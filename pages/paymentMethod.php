@@ -9,11 +9,11 @@
 
 <body>
 
-    <!------- HLAVIČKA -------->
+    <!------- HEADER -------->
     <?php include_once "../php/header.php"; ?>
 
 
-    <!------- HLAVNÍ OBSAH -------->
+    <!------- MAIN CONTENT -------->
     <main id="main">
 
         <div class="container main-title">
@@ -63,7 +63,7 @@
     </main>
 
 
-    <!------- PATIČKA -------->
+    <!------- FOOTER -------->
     <?php include_once "../php/footer.php"; ?>
 
 </body>
