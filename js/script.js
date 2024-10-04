@@ -2,10 +2,10 @@
 // HAMBURGER MENU
 function toggleMenu(mobileButton) {
 
-    // změna podoby tlačítka hamburger-menu při kliknutí
+    // change of hamburger-menu button when clicked
     mobileButton.classList.toggle("hamburger-clicked");
 
-    // animace vysunutí navigačního menu v mobilní verzi
+    // animation of navigation menu on mobile screen
     let navBar = document.getElementById("nav");
     navBar?.classList.toggle("JS_active");
 
@@ -18,7 +18,7 @@ function toggleMenu(mobileButton) {
 
 
 
-// ZKOPÍROVÁNÍ ČÍSLA ÚČTU PO KLIKNUTÍ
+// ACCOUNT NUMBER COPPIED WHEN CLICKED
 function accountNumberToCopy() {
 
     var accountNumber = this.innerText;
@@ -34,7 +34,7 @@ document.getElementById("accountNumberToCopy")?.addEventListener('click', accoun
 
 
 
-// AUTOMATICKÁ VÝŠKA PATIČKY
+// FOOTER AUTO-HEIGHT
 function setFooterPadding() {
 
     let footerHeight = document.getElementById("footer").clientHeight;
