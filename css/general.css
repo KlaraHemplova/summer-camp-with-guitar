@@ -248,6 +248,10 @@ div.white {
     background-color: var(--whiteTrans1);
     box-shadow: inset 0px 0px 50px -25px var(--white);
 }
+div.gray {
+    background-color: var(--gray);
+    box-shadow: inset 0px 0px 50px -25px var(--gray0);
+}
 div.green {
     background-color: var(--greenTrans1);
     box-shadow: inset 0px 0px 50px -35px var(--green);

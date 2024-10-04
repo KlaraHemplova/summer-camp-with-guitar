@@ -26,6 +26,7 @@
                 <h4>Užitečné odkazy</h4>
                 <ul>
                     <li><a href="https://www.strezina.cz/" target="_blank">ZUŠ Střezina Hradec Králové</a></li>
+                    <li><a href="https://www.wildwestband.cz/" target="_blank">Hudební skupina Wild West</a></li>
                     <li><a href="https://drive.google.com/drive/folders/1IbcxM5hGVNM6RCitpUuFRGeskECY3ra8?usp=drive_link" target="_blank">Klárčin online zpěvník</a></li>
                 </ul>
             </div>
