@@ -59,6 +59,17 @@
 
 
     /**********************************/
+    /*********** LEADERSHIP ***********/
+    /**********************************/
+    .leader > img {
+        left: 0;
+    }
+    .leader-box {
+        width: 100%;
+    }
+
+
+    /**********************************/
     /************* FOOTER *************/
     /**********************************/
 
@@ -281,6 +292,17 @@
 
 
     /**********************************/
+    /*********** LEADERSHIP ***********/
+    /**********************************/
+    .leader-comment {
+        font-size: 13px;
+    }
+    .leader-header {
+        padding: 16px 30px 0px 160px;
+    }
+
+
+    /**********************************/
     /******** PAYMENT AND RULES *******/
     /**********************************/
     .payment-section {
@@ -395,6 +417,30 @@
     }
     .daily-schedule table td:last-child {
         padding-left: 20px;
+    }
+
+
+    /**********************************/
+    /*********** LEADERSHIP ***********/
+    /**********************************/
+    .leader {
+        margin-top: 30px;
+    }
+    .leader-header {
+        padding: 16px 20px 0px 154px;
+    }
+    .leader-header > h2 {
+        font-size: 20px;
+    }
+    .leader-position {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .leader-comment {
+        display: none;
+    }
+    .leader-about {
+        padding: 20px;
     }
 
 

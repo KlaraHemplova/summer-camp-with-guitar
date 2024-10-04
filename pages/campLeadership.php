@@ -103,7 +103,7 @@
                     </div>
 
                     <div class="leader-about">
-                        <p>Narodila se v únoru 2003. Studuje 3. ročník Vysokou školu v Liberci obor Učitelství pro mateřskou školu. Na Střezinu začala chodit už od 4 let, kde se 10 let učila baletu a mezitím začala chodit na klasickou kytaru k Julii Coufalové. Na klasickou kytaru hrála 7 let, pokračuje v ní i nadále. Zde navštěvovala i populární zpěv u Aleny Kubínové. Hra na kytaru, převážně v souboru, jí dala obrovské možnosti, objevení jejího zpěvu, prohloubení lásky k hudbě a mnoha pravých přátel. Na semináře a tábory jezdí už pár let, je to pro ní vždy radost. Ráda sportuje, zpívá a chodí na procházky. Ze všeho nejraději tráví čas se svými přáteli u šálku kávy.</p>
+                        <p>Narodila se v únoru 2003. Studuje Vysokou školu v Liberci, obor Učitelství pro mateřskou školu. Na Střezinu začala chodit už od 4 let, kde se 10 let učila baletu a mezitím začala chodit na klasickou kytaru k Julii Coufalové. Na klasickou kytaru hrála 7 let a pokračuje v ní i nadále. Na Střezině navštěvovala i populární zpěv u Aleny Kubínové. Hra na kytaru, převážně v souboru, jí dala obrovské možnosti – objevení jejího zpěvu, prohloubení lásky k hudbě a mnoha pravých přátel. Na semináře a tábory jezdí už pár let, je to pro ni vždy radost. Ráda sportuje, zpívá a chodí na procházky. Ze všeho nejraději tráví čas se svými přáteli u šálku kávy.</p>
                     </div>
                 </div>
             </div>
