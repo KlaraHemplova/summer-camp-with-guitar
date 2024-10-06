@@ -33,7 +33,7 @@
                     <div class="date">
                         <div>
                             <div class="date-label">Příští seminář bude:</div>
-                            <div class="date-text bold">18. až 20. října 2024</div>
+                            <div class="date-text bold">31. ledna až 2. února 2025</div>
                         </div>
                         <img class="icon" src="../img/icons/blue/calendar.png" alt="ikona kalendáře">
                     </div>
@@ -50,7 +50,7 @@
                     <!-- price -->
                     <div class="price">
                         <div>
-                            <div class="price-number">cena semináře <span class="bold">2 200 Kč</span></div>
+                            <div class="price-number">cena semináře <span class="bold">2 300 Kč</span></div>
                             <div class="price-text">V ceně je zahrnuto ubytování s&nbsp;plnou penzí, výuka a&nbsp;materiály k&nbsp;výuce.</div>
                         </div>
                         <img class="icon" src="../img/icons/blue/price.png" alt="ikona cenovky">
@@ -81,17 +81,8 @@
             </div>
 
             <div class="weekends text-box">
+
                 <div class="weekends-section text-box-item purple">
-                    <h4>2024</h4> <!-- current year -->
-                    <hr class="h4-hr">
-
-                    <div class="seminar-date-row">
-                        <div class="seminar-date days">18.–20.</div>
-                        <div class="seminar-date month">říjen</div>
-                    </div>
-                </div>
-
-                <div class="weekends-section text-box-item blue">
                     <h4>2025</h4> <!-- next year -->
                     <hr class="h4-hr">
 
@@ -113,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="weekends-section text-box-item pink">
+                <div class="weekends-section text-box-item blue">
                     <h4>2026</h4> <!-- year after next year -->
                     <hr class="h4-hr">
 
@@ -133,6 +124,11 @@
                         <div class="seminar-date days">2.–4.</div>
                         <div class="seminar-date month">říjen</div>
                     </div>
+                </div>
+
+                <div class="weekends-section text-box-item pink">
+                    <h4>2027</h4> <!-- current year -->
+                    <hr class="h4-hr">
                 </div>
             </div>
 

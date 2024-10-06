@@ -67,7 +67,7 @@
 
                         <!-- birth date -->
                         <div class="flex-item">
-                            <input type="text" class="empty" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required" onfocus="convertToDate(this)" onblur="dateFormat(this)">
+                            <input type="text" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required">
                         </div>
                     </div>
                 </fieldset>
