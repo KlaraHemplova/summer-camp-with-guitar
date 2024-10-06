@@ -42,6 +42,17 @@
                             <label for="seminar">víkendový kytarový seminář</label>
                         </div>
                     </div>
+
+                    <div class="dropdown-menu" id="dropdown-menu">
+                        <div class="dropdown-select" id="dropdown-select">vyberte termín semináře</div>
+                        <div class="dropdown-items" id="dropdown-items">
+                            <div data-value="1">1</div>
+                            <div data-value="2">2</div>
+                            <div data-value="3">3</div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="seminar-date" id="seminar-date">
+
                 </fieldset>
 
                 <!-- PARTICIPANT -->

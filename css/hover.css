@@ -67,6 +67,14 @@
     /*********** APPLICATION **********/
     /**********************************/
 
+    /* dropdown menu */
+    form .dropdown-menu:hover {
+        border: 2px solid var(--gray0);
+    }
+    form .dropdown-items > div:hover {
+        background-color: var(--pinkTrans);
+    }
+
     /* inputs RADIO */
     form input[type='radio']:hover {
         border-color: var(--gray0);
@@ -77,7 +85,7 @@
         color: var(--pink);
     }
 
-    /* CUSTOM INPUT[type='date'] */
+    /* input[type='date'] */
     form input[type='date']::-webkit-calendar-picker-indicator:hover {
         background-image: url('/img/icons/black/calendar.png');
         cursor: pointer;
