@@ -18,6 +18,46 @@ function toggleMenu(mobileButton) {
 
 
 
+// APPLICATION BIRTH DATE
+
+// placeholder
+var dateBirth = document.getElementById("birth-date");
+
+dateBirth.onchange = function() {
+    if(dateBirth.value === "") {
+        dateBirth.classList.add("empty");
+    } else {
+        dateBirth.classList.remove("empty");
+    }
+}
+
+// date format
+function dateFormat(input) {
+    var date = new Date(input.value);
+
+    if(!isNaN(date)) {
+        var dateNewFormat = ("0" + date.getDate()).slice(-2) + "." + ("0" + (date.getMonth() + 1)).slice(-2) + "." + date.getFullYear();
+        input.type = "text";
+        input.value = dateNewFormat;
+    } else {
+        input.type = "text"
+    }
+}
+
+function convertToDate(input) {
+    var dateParts = input.value.split(".");
+
+    if (dateParts.length === 3) {
+        var dateNewFormat = dateParts[2] + '-' + ('0' + dateParts[1]).slice(-2) + '-' + ('0' + dateParts[0]).slice(-2);
+        input.type = "date";
+        input.value = dateNewFormat;
+    } else {
+        input.type = "date";
+    }
+}
+
+
+
 // ACCOUNT NUMBER COPPIED WHEN CLICKED
 function accountNumberToCopy() {
 

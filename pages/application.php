@@ -54,9 +54,9 @@
                             <input type="text" name="name" id="name"placeholder="jméno a příjmení účastníka" required="required">
                         </div>
 
-                        <!-- birth name -->
+                        <!-- birth date -->
                         <div class="flex-item">
-                            <input type="date" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required">
+                            <input type="text" class="empty" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required" onfocus="convertToDate(this)" onblur="dateFormat(this)">
                         </div>
                     </div>
                 </fieldset>

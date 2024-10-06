@@ -77,6 +77,12 @@
         color: var(--pink);
     }
 
+    /* CUSTOM INPUT[type='date'] */
+    form input[type='date']::-webkit-calendar-picker-indicator:hover {
+        background-image: url('/img/icons/black/calendar.png');
+        cursor: pointer;
+    }
+
 
     /**********************************/
     /********* PAYMENT METHOD *********/
