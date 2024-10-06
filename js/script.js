@@ -43,13 +43,13 @@ function dropdownVisibility(event) {
     }
 }
 
-radioSeminar.addEventListener("change", dropdownVisibility);
-radioCamp.addEventListener("change", dropdownVisibility);
+radioSeminar?.addEventListener("change", dropdownVisibility);
+radioCamp?.addEventListener("change", dropdownVisibility);
 
 // dropdown select
 document.addEventListener("click", function(event) {
     if(!event.target.closest("#dropdown-menu")) {
-        dropdownList.classList.remove("select-show");
+        dropdownList?.classList.remove("select-show");
     } 
     else if (event.target.id === "dropdown-select") {
         dropdownList.classList.toggle("select-show");
@@ -71,13 +71,13 @@ document.addEventListener("click", function(event) {
 // placeholder
 var dateBirth = document.getElementById("birth-date");
 
-dateBirth.onchange = function() {
+dateBirth?.addEventListener("change", function() {
     if(dateBirth.value === "") {
         dateBirth.classList.add("empty");
     } else {
         dateBirth.classList.remove("empty");
     }
-}
+});
 
 // date format
 function dateFormat(input) {

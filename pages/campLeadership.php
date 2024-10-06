@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="leader-about">
-                        <p>Narodila se v roce 2003 v Hradci Králové. Učit na kytaru se začala v sedmi letech na ZUŠ Střezina pod vedením Rosti Coufala, kde hraje dodnes. Již od prvního ročníku se také účastní písničkových seminářů a táborů, které její lásku k hudbě ještě prohloubily. Studuje druhý ročník jazykového gymnázia, ve třídě zaměřené na humanitní předměty. Ráda si rozšiřuje obzory, chodí na procházky, čte a obklopuje se hudbou a blízkými lidmi.</p>
+                        <p>Narodila se v roce 2003 v Hradci Králové. Učit na kytaru se začala v sedmi letech na ZUŠ Střezina pod vedením Rosti Coufala. Díky němu také úspěšně prošla talentovou zkouškou konzervatoře v Pardubicích, kde momentálně studuje pod vedením pana Petra Saidla. Již od prvního ročníku ZUŠ se také účastní písničkových seminářů a táborů, kam se vždy ráda vrací. Dále studuje psychologii na filozofické fakultě Univerzity Karlovy. Kromě hudby a studijí ráda čte, běhá a pije dobrou kávu.</p>
                     </div>
                 </div>
             </div>
