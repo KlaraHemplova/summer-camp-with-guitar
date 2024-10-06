@@ -13,11 +13,8 @@
             <div class="text-box-item">
                 <h4>Dokumenty v PDF</h4>
                 <ul>
-                    <li><a href="">Přihláška na letní tábor s&nbsp;kytarou</a></li>
-                    <li><a href="">Přihláška na víkendový kytarový seminář</a></li>
                     <li><a href="">Prohlášení zákonného zástupce o&nbsp;bezinfekčnosti účastníka</a></li>
                     <li><a href="">Posudek o&nbsp;zdravotní způsobilosti účastníka</a></li>
-                    <li><a href="">Řád tábora</a></li>
                 </ul>
             </div>
 

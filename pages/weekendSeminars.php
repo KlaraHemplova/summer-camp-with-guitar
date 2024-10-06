@@ -126,7 +126,7 @@
                         <div class="seminar-date month">duben</div>
                     </div>
                     <div class="seminar-date-row">
-                        <div class="seminar-date days">12.–14.</div>
+                        <div class="seminar-date days">20.–22.</div>
                         <div class="seminar-date month">červen</div>
                     </div>
                     <div class="seminar-date-row">
@@ -296,8 +296,6 @@
                         <li>kytara</li>
                         <li>ladička</li>
                         <li>kapodastr (není nutný)</li>
-                        <li>podnožka (není nutná)</li>
-                        <li>základní psací potřeby</li>
                     </ul>
                 </div>
             </div>

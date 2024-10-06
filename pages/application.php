@@ -54,9 +54,9 @@
                             <input type="text" name="name" id="name"placeholder="jméno a příjmení účastníka" required="required">
                         </div>
 
-                        <!-- social security number -->
+                        <!-- birth name -->
                         <div class="flex-item">
-                            <input type="text" name="ss-number" id="ss-number" placeholder="rodné číslo účastníka" required="required">
+                            <input type="date" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required">
                         </div>
                     </div>
                 </fieldset>

@@ -31,7 +31,7 @@
 
                     <!-- date -->
                     <div class="date">
-                        <div class="date-text bold">18. až 25. srpna 2024</div>
+                        <div class="date-text bold">17. až 24. srpna 2025</div>
                         <img class="icon" src="img/icons/green/calendar.png" alt="ikona kalendáře">
                     </div>
 
@@ -47,7 +47,7 @@
                     <!-- price -->
                     <div class="price">
                         <div>
-                            <div class="price-number">cena tábora <span class="bold">5 200 Kč</span></div>
+                            <div class="price-number">cena tábora <span class="bold">5 300 Kč</span></div>
                             <div class="price-text">V ceně je zahrnuto ubytování, strava čtyřikrát denně, výuka, materiály k&nbsp;výuce a&nbsp;doprovodný program.</div>
                         </div>
                         <img class="icon" src="img/icons/green/price.png" alt="ikona cenovky">
@@ -82,7 +82,7 @@
                     <p>Tábor je určen úplným začátečníkům i&nbsp;pokročilým kytaristům. Dolní věková hranice účastníků je 8&nbsp;let.</p>
                 </div>
                 <div class="text-box-item blue">
-                    <p>Výuka je zaměřena na hru akordů, doprovodů, aranžování pro dvě a&nbsp;více kytar, hru s&nbsp;kapodastrem a&nbsp;elementární improvizaci.</p>
+                    <p>Výuka je zaměřena na hru akordů, doprovodů, písniček, aranžování pro dvě a&nbsp;více kytar, hru s&nbsp;kapodastrem a&nbsp;elementární improvizaci.</p>
                 </div>
                 <div class="text-box-item pink">
                     <p>Lekce probíhají v&nbsp;šesti až osmičlenných skupinách, které jsou sestaveny tak, aby všichni ve skupině byli na přibližně stejné hráčské úrovni.</p>
@@ -311,8 +311,6 @@
                         <li>kytara</li>
                         <li>ladička</li>
                         <li>kapodastr (není nutný)</li>
-                        <li>podnožka (není nutná)</li>
-                        <li>základní psací potřeby</li>
                     </ul>
                 </div>
             </div>
