@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="/css/leadership.css">
     <link rel="stylesheet" href="/css/payment-rules.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/photogallery.css">
     <link rel="stylesheet" href="/css/responsibility.css">
     
 </head>
