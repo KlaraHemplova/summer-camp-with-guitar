@@ -7,7 +7,7 @@
 <?php include_once "php/head.php"; ?>
 
 
-<body>
+<body class="camp-color">
 
     <!------- HEADER -------->
     <?php include_once "php/header.php"; ?>
@@ -173,7 +173,7 @@
 
             </div>
 
-            <button class="green" type="button" onclick="location.href='pages/campLeadership.php'">Více o vedoucích&hellip;</button>
+            <button type="button" onclick="location.href='pages/campLeadership.php'">Více o vedoucích&hellip;</button>
 
         </section>
         
@@ -269,7 +269,7 @@
 
             <div class="centered">Pro všechny účastníky platí <span class="bold">Řád letního tábora s kytarou a víkendových kytarových seminářů</span>.</div>
 
-            <button class="green" type="button" onclick="location.href='pages/campRules.php'">Přečíst si řád</button>
+            <button type="button" onclick="location.href='pages/campRules.php'">Přečíst si řád</button>
 
         </section>
 

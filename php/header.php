@@ -36,4 +36,4 @@
 
 
 <!-- SCROLL-TO-TOP BUTTON -->
-<button onclick="scrollToTop()" id="scroll-to-top" class=""><img src="/img/icons/white/arrowUp.png" alt="arrow up icon"></button>
+<button onclick="scrollToTop()" id="scroll-to-top" class=""><img src="/img/icons/black/arrowUp.png" alt="arrow up icon"></button>

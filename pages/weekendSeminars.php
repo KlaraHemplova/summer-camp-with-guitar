@@ -7,7 +7,7 @@
 <?php include_once "../php/head.php"; ?>
 
 
-<body>
+<body class="seminar-color">
 
     <!------- HEADER -------->
     <?php include_once "../php/header.php"; ?>
@@ -153,7 +153,7 @@
                 <div>Klára Hemplová</div>
             </div>
 
-            <button class="blue" type="button" onclick="location.href='../pages/campLeadership.php'">Více o vyučujících&hellip;</button>
+            <button type="button" onclick="location.href='../pages/campLeadership.php'">Více o vyučujících&hellip;</button>
 
         </section>
 
@@ -260,7 +260,7 @@
 
             <div class="centered">Pro všechny účastníky platí <span class="bold">Řád letního tábora s kytarou a víkendových kytarových seminářů</span>.</div>
 
-            <button class="blue" type="button" onclick="location.href='../pages/campRules.php'">Přečíst si řád</button>
+            <button type="button" onclick="location.href='../pages/campRules.php'">Přečíst si řád</button>
 
         </section>
 

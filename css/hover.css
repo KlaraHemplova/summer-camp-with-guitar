@@ -6,13 +6,7 @@
     /**********************************/
 
     /* buttons */
-    button.green:hover,
-    button.blue:hover,
-    button.purple:hover,
-    button.pink:hover,
-    button.red:hover,
-    button.orange:hover,
-    button.yellow:hover,
+    button:hover,
     form input[type='submit']:hover {
         background-color: var(--white);
         color: var(--gray3);
@@ -59,7 +53,7 @@
     /* summer camp links */
     .leadership a:hover,
     .properties a:hover {
-        color: var(--green);
+        color: var(--main-color);
     }
 
 
@@ -83,7 +77,7 @@
 
     /* form links */
     form a:hover {
-        color: var(--pink);
+        color: var(--main-color);
     }
 
 
@@ -93,7 +87,7 @@
 
     /* account number */
     .account-number > .number:hover {
-        color: var(--red);
+        color: var(--main-color);
         cursor: pointer;
     }
 

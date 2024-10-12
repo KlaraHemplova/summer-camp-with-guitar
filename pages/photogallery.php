@@ -7,7 +7,7 @@
 <?php include_once "../php/head.php"; ?>
 
 
-<body>
+<body class="photogallery-color">
 
     <!------- HEADER -------->
     <?php include_once "../php/header.php"; ?>

@@ -7,7 +7,7 @@
 <?php include_once "../php/head.php"; ?>
 
 
-<body>
+<body class="payment-color">
 
     <!------- HEADER -------->
     <?php include_once "../php/header.php"; ?>

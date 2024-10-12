@@ -88,27 +88,7 @@ nav > ul > li > a {
     text-decoration: none;
     font-size: 14px;
     color: var(--white);
-}
-.summer-camp.active {
-    border-bottom: 1px solid var(--green);
-}
-.weekend-seminars.active {
-    border-bottom: 1px solid var(--blue);
-}
-.camp-leadership.active {
-    border-bottom: 1px solid var(--purple);
-}
-.application.active {
-    border-bottom: 1px solid var(--pink);
-}
-.payment-method.active {
-    border-bottom: 1px solid var(--red);
-}
-.photogallery.active {
-    border-bottom: 1px solid var(--orange);
-}
-.camp-rules.active {
-    border-bottom: 1px solid var(--yellow);
+    border-bottom: 1px solid var(--main-color)
 }
 
 
@@ -176,9 +156,10 @@ nav > ul > li > a {
     right: 20px;
     z-index: 99;
     background-color: red;
+    box-shadow: 0 0 15px -5px var(--blackTrans);
     padding: 0;
     margin: 0;
-    background-color: var(--blackTrans);
+    background-color: var(--main-color);
     border: none;
 }
 #scroll-to-top > img {

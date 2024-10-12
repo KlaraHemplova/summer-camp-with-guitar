@@ -29,6 +29,28 @@
     --yellowTrans2: rgba(253, 241, 72, 0.15);
 }
 
+body.camp-color {
+    --main-color: var(--green);
+}
+body.seminar-color {
+    --main-color: var(--blue);
+}
+body.leadership-color {
+    --main-color: var(--purple);
+}
+body.application-color {
+    --main-color: var(--pink);
+}
+body.payment-color {
+    --main-color: var(--red);
+}
+body.photogallery-color {
+    --main-color: var(--orange);
+}
+body.rules-color {
+    --main-color: var(--yellow);
+}
+
 
 
 /* WHOLE PAGE */
@@ -209,6 +231,7 @@ a {
 
 /* BUTTONS */
 button {
+    width: auto;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -219,34 +242,8 @@ button {
     display: block;
     margin: 25px auto 0px auto;
     padding: 10px 18px;
-}
-button.green {
-    background-color: var(--green);
-    border: 3px solid var(--green);
-}
-button.blue {
-    background-color: var(--blue);
-    border: 3px solid var(--blue);
-}
-button.purple {
-    background-color: var(--purple);
-    border: 3px solid var(--purple);
-}
-button.pink {
-    background-color: var(--pink);
-    border: 3px solid var(--pink);
-}
-button.red {
-    background-color: var(--red);
-    border: 3px solid var(--red);
-}
-button.orange {
-    background-color: var(--orange);
-    border: 3px solid var(--orange);
-}
-button.yellow {
-    background-color: var(--yellow);
-    border: 3px solid var(--yellow);
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color)
 }
 
 
