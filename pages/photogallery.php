@@ -243,7 +243,7 @@
             <div class="gallery-img">
                 <div class="gallery-label">
                     <div class="gallery-year">2006</div>
-                    <div class="gallery-name">Clumětín</div>
+                    <div class="gallery-name">Chlumětín</div>
                 </div>
                 <img src="/img/gallery/preview/mass/2006_chlumetin.jpg" alt="mass photo of summer camp with guitar from 2006">
             </div>

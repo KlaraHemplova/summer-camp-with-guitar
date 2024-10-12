@@ -22,16 +22,14 @@ function toggleMenu(mobileButton) {
 var scrollButton = document.getElementById("scroll-to-top");
 
 // show the button when the user scrolls down 200px
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
+window.onscroll = function() {
     if(!scrollButton.classList.contains("visible") && (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200)) {
         scrollButton.classList.add("visible");
     } 
     else if(document.body.scrollTop === 0 && document.documentElement.scrollTop === 0) {
         scrollButton.classList.remove("visible");
     }
-}
+};
 
 // scroll to the top when clicked
 function scrollToTop() {

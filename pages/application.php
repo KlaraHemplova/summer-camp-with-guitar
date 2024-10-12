@@ -112,7 +112,7 @@
                         <div class="contact-container">
                             <div class="contact">
                                 <!-- phone number (participant) -->
-                                <input type="tel" name="phone-participant" id="phone-participant" placeholder="telefonní číslo účastníka">
+                                <input type="tel" name="phone-participant" id="phone-participant" placeholder="telefonní číslo účastníka (nepovinné)">
                                 <!-- phone number (parent) -->
                                 <input type="tel" name="phone-parent" id="phone-parent" placeholder="telefonní číslo zákonného zástupce" required="required">
                                 <!-- e-mail (parent) -->
@@ -150,7 +150,7 @@
                         </div>
                     </div>
 
-                    <textarea name="experiences-info" placeholder="Zde napište bližší informace o pokročilosti účastníka."></textarea>
+                    <textarea name="experiences-info" placeholder="Zde můžete napsat bližší informace o pokročilosti účastníka."></textarea>
 
                     <div class="experiences-comment"> Dle těchto údajů budou sestaveny jednotlivé skupiny.</div>
                 </fieldset>
