@@ -21,14 +21,15 @@ function toggleMenu(mobileButton) {
 // SCROLL-TO-TOP BUTTON
 var scrollButton = document.getElementById("scroll-to-top");
 
-// show the button when the user scrolls down 100px
+// show the button when the user scrolls down 200px
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        scrollButton.style.visibility = "visible";
-    } else {
-        scrollButton.style.visibility = "hidden";
+    if(!scrollButton.classList.contains("visible") && (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200)) {
+        scrollButton.classList.add("visible");
+    } 
+    else if(document.body.scrollTop === 0 && document.documentElement.scrollTop === 0) {
+        scrollButton.classList.remove("visible");
     }
 }
 

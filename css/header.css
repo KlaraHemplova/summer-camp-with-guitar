@@ -148,19 +148,20 @@ nav > ul > li > a {
     display: none;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    background-color: red;
-    box-shadow: 0 0 15px -5px var(--blackTrans);
-    padding: 0;
+    right: -40px;
+    z-index: 99;    padding: 0;
     margin: 0;
+    box-shadow: 0 0 15px -8px var(--blackTrans);
     background-color: var(--main-color);
     border: none;
+    transition: right 0.5s ease-in-out;
+}
+#scroll-to-top.visible {
+    right: 20px;
 }
 #scroll-to-top > img {
     width: 90%;
