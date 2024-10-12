@@ -76,7 +76,8 @@
     }
 
     /* inputs RADIO */
-    form input[type='radio']:hover {
+    form input[type='radio']:hover,
+    form input[type='checkbox']:hover {
         border-color: var(--gray0);
     }
 

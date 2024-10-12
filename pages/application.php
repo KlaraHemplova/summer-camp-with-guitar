@@ -21,8 +21,11 @@
             <hr class="h1-hr">
         </div>
 
-        <div class="container">
+        <div class="container no-select">
             <form id="application" action="../php/sendApplication.php" method="post">
+
+                <!-- HIDDEN BOT CHECKER -->
+                <input type="text" name="bot-checker" class="bot-checker" id="bot-checker">
 
                 <!-- ACTION TYPE -->
                 <fieldset>
@@ -46,12 +49,24 @@
                     <div class="dropdown-menu" id="dropdown-menu">
                         <div class="dropdown-select" id="dropdown-select">vyberte termín semináře</div>
                         <div class="dropdown-items" id="dropdown-items">
-                            <div data-value="1">1</div>
-                            <div data-value="2">2</div>
-                            <div data-value="3">3</div>
+                            <div data-value="1">2025&emsp;leden/únor&emsp;31.–2.</div>
+                            <div data-value="2">2025&emsp;březen&emsp;7.–9.</div>
+                            <div data-value="3">2025&emsp;červen&emsp;6.–8.</div>
+                            <div data-value="4">2025&emsp;říjen&emsp;3.–5.</div>
+                            <div data-value="5">2026&emsp;únor&emsp;6.–8.</div>
+                            <div data-value="6">2026&emsp;duben&emsp;10.–12.</div>
+                            <div data-value="7">2026&emsp;červen&emsp;20.–22.</div>
+                            <div data-value="8">2026&emsp;říjen&emsp;2.–4.</div>
                         </div>
                     </div>
                     <input type="hidden" name="seminar-date" id="seminar-date">
+
+                    <div class="radio-box vegetarian">
+                        <div>
+                            <input type="checkbox" name="seminar-vege" id="seminar-vege" value="seminar-vege">
+                        </div>
+                        <label for="seminar-vege">zajistit vegetariánskou stravu</label>
+                    </div>
 
                 </fieldset>
 

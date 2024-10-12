@@ -18,7 +18,7 @@ function toggleMenu(mobileButton) {
 
 
 
-// APPLICATION DROPDOWN MENU
+// APPLICATION DROPDOWN MENU & VEGETARIAN OPTION
 var radioSeminar = document.getElementById("seminar");
 var radioCamp = document.getElementById("camp");
 
@@ -26,20 +26,27 @@ var dropdownMenu = document.getElementById("dropdown-menu");
 var dropdownSelect = document.getElementById("dropdown-select");
 var dropdownList = document.getElementById("dropdown-items");
 
-var selectedSeminar = document.getElementById("seminar-date")
+var selectedSeminar = document.getElementById("seminar-date");
 
-// dropdown visibility
+var vegetarian = document.querySelector(".vegetarian");
+var vegetarianCheckbox = document.getElementById("seminar-vege");
+
+// dropdown & vegetarian option visibility
 function dropdownVisibility(event) {
     if(event.target.value === "seminar") {
         dropdownMenu.style.display = "block";
-    } else {
+        vegetarian.style.display = "flex";
+    }
+    else {
         dropdownMenu.style.display = "none";
+        vegetarian.style.display = "none";
 
         dropdownSelect.innerText = "vyberte termín semináře"
         dropdownSelect.style.color = "var(--gray1)";
         dropdownSelect.style.fontWeight = 300;
 
         selectedSeminar.value = "";
+        vegetarianCheckbox.checked = false;
     }
 }
 

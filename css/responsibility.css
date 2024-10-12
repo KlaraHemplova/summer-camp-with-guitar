@@ -325,7 +325,8 @@
     }
 
     /* inputs RADIO */
-    form input[type='radio'] {
+    form input[type='radio'],
+    form input[type='checkbox'] {
         border-color: var(--gray0);
     }
 
