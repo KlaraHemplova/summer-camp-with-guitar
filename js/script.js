@@ -18,6 +18,28 @@ function toggleMenu(mobileButton) {
 
 
 
+// SCROLL-TO-TOP BUTTON
+var scrollButton = document.getElementById("scroll-to-top");
+
+// show the button when the user scrolls down 100px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollButton.style.visibility = "visible";
+    } else {
+        scrollButton.style.visibility = "hidden";
+    }
+}
+
+// scroll to the top when clicked
+function scrollToTop() {
+    document.body.scrollTop = 0; // Safari
+    document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
+}
+
+
+
 // APPLICATION DROPDOWN MENU & VEGETARIAN OPTION
 var radioSeminar = document.getElementById("seminar");
 var radioCamp = document.getElementById("camp");

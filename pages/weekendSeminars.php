@@ -35,7 +35,7 @@
                             <div class="date-label">Příští seminář bude:</div>
                             <div class="date-text bold">31. ledna až 2. února 2025</div>
                         </div>
-                        <img class="icon" src="../img/icons/blue/calendar.png" alt="ikona kalendáře">
+                        <img class="icon" src="../img/icons/blue/calendar.png" alt="calendar icon">
                     </div>
 
                     <!-- location -->
@@ -44,7 +44,7 @@
                             <div>Tábor J.&nbsp;A.&nbsp;Komenského</div> <!-- areal name -->
                             <div>Běleč nad Orlicí 121, 503&nbsp;46 Běleč n. O.</div> <!-- areal adress -->
                         </div>
-                        <img class="icon" src="../img/icons/blue/map.png" alt="ikona mapy">
+                        <img class="icon" src="../img/icons/blue/map.png" alt="map icon">
                     </div>
 
                     <!-- price -->
@@ -53,13 +53,13 @@
                             <div class="price-number">cena semináře <span class="bold">2 300 Kč</span></div>
                             <div class="price-text">V ceně je zahrnuto ubytování s&nbsp;plnou penzí, výuka a&nbsp;materiály k&nbsp;výuce.</div>
                         </div>
-                        <img class="icon" src="../img/icons/blue/price.png" alt="ikona cenovky">
+                        <img class="icon" src="../img/icons/blue/price.png" alt="price icon">
                     </div>
 
                     <!-- transport -->
                     <div class="transport">
                         <div class="transport-text">dopravu si rodiče zajišťují sami</div>
-                        <img class="icon" src="../img/icons/blue/car.png" alt="ikona auta">
+                        <img class="icon" src="../img/icons/blue/car.png" alt="car icon">
                     </div>
 
                 </div>

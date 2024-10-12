@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" class="no-select">
 
     <a href="/index.php"><img src="/img/logoWhite.png" alt="Logo letního tábora s kytarou" class="logo-header"></a>
 
@@ -16,7 +16,7 @@
 
 
 <!-- NAVIGATION -->
-<div class="navigation" id="nav" style="transform: translateY(-100%);">
+<div class="navigation no-select" id="nav" style="transform: translateY(-100%);">
 
     <div class="glass-background"></div>
 
@@ -33,3 +33,7 @@
     </nav>
 
 </div>
+
+
+<!-- SCROLL-TO-TOP BUTTON -->
+<button onclick="scrollToTop()" id="scroll-to-top" class=""><img src="/img/icons/white/arrowUp.png" alt="arrow up icon"></button>

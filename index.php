@@ -32,7 +32,7 @@
                     <!-- date -->
                     <div class="date">
                         <div class="date-text bold">17. až 24. srpna 2025</div>
-                        <img class="icon" src="img/icons/green/calendar.png" alt="ikona kalendáře">
+                        <img class="icon" src="img/icons/green/calendar.png" alt="calendar icon">
                     </div>
 
                     <!-- location -->
@@ -41,7 +41,7 @@
                             <div>Pension Jívka&nbsp;II</div> <!-- areal name -->
                             <div>Jívka 170, 542&nbsp;34 Malé Svatoňovice</div> <!-- areal adress -->
                         </div>
-                        <img class="icon" src="img/icons/green/map.png" alt="ikona mapy">
+                        <img class="icon" src="img/icons/green/map.png" alt="map icon">
                     </div>
 
                     <!-- price -->
@@ -50,13 +50,13 @@
                             <div class="price-number">cena tábora <span class="bold">5 300 Kč</span></div>
                             <div class="price-text">V ceně je zahrnuto ubytování, strava čtyřikrát denně, výuka, materiály k&nbsp;výuce a&nbsp;doprovodný program.</div>
                         </div>
-                        <img class="icon" src="img/icons/green/price.png" alt="ikona cenovky">
+                        <img class="icon" src="img/icons/green/price.png" alt="price icon">
                     </div>
 
                     <!-- transport -->
                     <div class="transport">
                         <div class="transport-text">dopravu si rodiče zajišťují sami</div>
-                        <img class="icon" src="img/icons/green/car.png" alt="ikona auta">
+                        <img class="icon" src="img/icons/green/car.png" alt="car icon">
                     </div>
                     
                 </div>

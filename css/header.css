@@ -160,3 +160,29 @@ nav > ul > li > a {
 }
 
 
+
+/**********************************/
+/****** SCROLL-TO-TOP BUTTON ******/
+/**********************************/
+#scroll-to-top {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    background-color: var(--blackTrans);
+    border: none;
+}
+#scroll-to-top > img {
+    width: 90%;
+    aspect-ratio: 1;
+}
+
