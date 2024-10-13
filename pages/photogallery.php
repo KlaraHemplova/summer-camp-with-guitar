@@ -65,7 +65,7 @@
                     <div class="gallery-name">Pension Jívka</div>
                     <div class="gallery-comment">vedoucí</div>
                 </div>
-                <img src="/img/gallery/preview/leaders/2024_vedouci.jpg" alt="mass photo of summer camp with guitar leadership from 2024" data-title="2024 vedoucí: Petr, Markét, Barča, Rosťa, Eliška, Markét, Kristián">
+                <img src="/img/gallery/preview/leaders/2024_vedouci.jpg" alt="mass photo of summer camp with guitar leadership from 2024" data-title="2024 vedoucí: Petr, Markét, Barča, Rosťa, Eliška, Markét, Kristián, Lucka">
             </div>
             
             <div class="gallery-img">

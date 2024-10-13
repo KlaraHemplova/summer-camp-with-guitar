@@ -23,7 +23,7 @@ function imgProperties() {
     // set new attributes SRC, ALT, DATA-TITLE
     lightboxPhoto.setAttribute("src", imgSRC.replace("/img/gallery/preview/", "/img/gallery/"));
     lightboxPhoto.setAttribute("alt", imgALT)
-    lightboxPhoto.setAttribute("title", imgCaption);
+    lightboxPhoto.setAttribute("data-title", imgCaption);
 
     // set the value of TITLE attribute into div #LIGHTBOX-CAPTION
     caption.textContent = imgCaption;
