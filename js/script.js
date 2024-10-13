@@ -1,4 +1,3 @@
-
 // HAMBURGER MENU
 function toggleMenu(mobileButton) {
 
