@@ -71,12 +71,22 @@ function openLightbox(event) {
 // PREVIOUS & NEXT BUTTONS
 function previousImg() {
     currentImgIndex = (currentImgIndex - 1);
+
+    if(currentImgIndex <= 0) {
+        currentImgIndex = 0;
+    }
+
     currentImg = galleryImg[currentImgIndex].children[1];
     imgProperties();
 }
 
 function nextImg() {
     currentImgIndex = (currentImgIndex + 1);
+
+    if(currentImgIndex >= galleryImg.length - 1) {
+        currentImgIndex = galleryImg.length - 1;
+    }
+
     currentImg = galleryImg[currentImgIndex].children[1];
     imgProperties();
 }
@@ -88,3 +98,27 @@ function closeLightbox() {
     document.body.classList.remove("no-scrollbar");
     lightboxBackground.style.display = "none";
 }
+
+
+
+// MOBILE SWIPE
+var touchStartX = 0;
+var touchEndX = 0;
+
+function checkDirection() {
+    if(lightboxBackground.style.display === "block") {
+        if(touchEndX < touchStartX) {
+            nextImg();
+        } else if(touchEndX > touchStartX) {
+            previousImg();
+        }
+    }
+}
+
+document.addEventListener("touchstart", function(event) {
+    touchStartX = event.changedTouches[0].screenX;
+})
+document.addEventListener("touchend", function(event) {
+    touchEndX = event.changedTouches[0].screenX;
+    checkDirection();
+})

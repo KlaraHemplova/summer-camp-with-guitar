@@ -339,8 +339,25 @@
     /**********************************/
     /********** PHOTOGALLERY **********/
     /**********************************/
+    .gallery {
+        margin-bottom: 0;
+    }
+
     .gallery-img:nth-last-child(-n + 2) {
         flex: 1 0 auto;
+    }
+
+    #lightbox-photo > img {
+        max-height: 82vh;
+    }
+    .caption-container {
+    height: 9%;
+    }
+
+    #lightbox-next,
+    #lightbox-previous,
+    #close-lightbox {
+        opacity: 1;
     }
 
 

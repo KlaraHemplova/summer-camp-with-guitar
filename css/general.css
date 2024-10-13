@@ -68,7 +68,7 @@ body {
     position: relative;
 }
 body.no-scrollbar {
-    overflow-y: hidden;
+    overflow: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
