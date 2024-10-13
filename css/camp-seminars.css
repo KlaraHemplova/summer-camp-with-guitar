@@ -108,14 +108,18 @@
 }
 .daily-schedule table th {
     text-align: left;
+    border-bottom: 1px solid var(--gray0);
 }
 .daily-schedule table tr {
-    border-bottom: 1.5px solid var(--gray0);
     height: 30px;
 }
 .daily-schedule table td {
     text-align: left;
     padding: 0px 3px;
+    border-bottom: 1px solid var(--gray0);
+}
+.daily-schedule table tr:last-child > td {
+    border-bottom: none;
 }
 .daily-schedule table td:first-child {
     text-align: right;

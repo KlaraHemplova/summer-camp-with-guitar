@@ -437,10 +437,6 @@
     .daily-schedule table th {
         font-size: 14px;
     }
-    .daily-schedule table tr {
-        border-bottom: 0.75px solid var(--gray0);
-        height: 30px;
-    }
     .daily-schedule table td {
         padding-top: 7px;
         padding-bottom: 7px;

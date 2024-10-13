@@ -247,7 +247,7 @@
 
                     <div class="daily-schedule">
                         <!-- daily schedule table -->
-                        <table rules="none">
+                        <table rules="none" cellspacing="0">
                             <tr><td>7.30</td>   <td></td>   <td></td>       <td>budíček</td></tr>
                             <tr><td>7.45</td>   <td></td>   <td></td>       <td>rozcvička</td></tr>
                             <tr><td>8.00</td>   <td></td>   <td></td>       <td>snídaně</td></tr>

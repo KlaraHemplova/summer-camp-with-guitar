@@ -227,7 +227,7 @@
 
                     <div class="daily-schedule">
                         <!-- weekend seminar schedule table -->
-                        <table rules="none">
+                        <table rules="none" cellspacing="0">
                             <tr><th colspan="5">Pátek</th></tr>
                             <tr><td>18.30</td>  <td>–</td>  <td>19.00</td>  <td>příjezd účastníků</td></tr>
                             <tr><td>19.15</td>  <td></td>   <td></td>       <td>večeře</td></tr>
