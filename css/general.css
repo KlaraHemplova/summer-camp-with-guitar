@@ -67,6 +67,14 @@ body {
     min-height: 100vh;
     position: relative;
 }
+body.no-scrollbar {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
 
 main {
     margin-top: 85px;

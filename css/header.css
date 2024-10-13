@@ -51,8 +51,8 @@ header > a {
     width: 100%;
     height: 45px;
     background-color: var(--blackTrans);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     position: absolute;
 }
 
@@ -153,7 +153,8 @@ nav > ul > li > a {
     position: fixed;
     bottom: 20px;
     right: -40px;
-    z-index: 99;    padding: 0;
+    z-index: 99;
+    padding: 0;
     margin: 0;
     box-shadow: 0 0 15px -8px var(--blackTrans);
     background-color: var(--main-color);

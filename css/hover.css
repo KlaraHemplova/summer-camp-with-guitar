@@ -103,6 +103,11 @@
         visibility: visible;
     }
 
+    /* lightbox */
+    #close-lightbox:hover {
+        background-image: url("/img/icons/orange/close.png");
+    }
+
 
     /**********************************/
     /************* FOOTER *************/
