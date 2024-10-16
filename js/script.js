@@ -55,10 +55,13 @@ function dropdownVisibility(event) {
     if(event.target.value === "seminar") {
         dropdownMenu.style.display = "block";
         documentSection.style.display = "none"
+    } 
+    else if(event.target.value === "camp") {
+        documentSection.style.display = "block";
     }
     else {
         dropdownMenu.style.display = "none";
-        documentSection.style.display = "block";
+        documentSection.style.display = "none";
 
         dropdownSelect.innerText = "vyberte termín semináře"
         dropdownSelect.style.color = "var(--gray1)";

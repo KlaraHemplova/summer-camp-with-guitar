@@ -207,8 +207,13 @@ form .experiences {
     margin-bottom: 12px;
 }
 
+/* DOCUMENTS */
+form .documents {
+    display: none;
+}
+
 /* HIDDEN BOT CHECKER */
-.bot-checker {
+form .bot-checker {
     display: none;
 }
 
