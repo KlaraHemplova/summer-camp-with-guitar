@@ -207,11 +207,6 @@ form .experiences {
     margin-bottom: 12px;
 }
 
-/* SEMINAR - vegetarian food */
-form .vegetarian {
-    display: none;
-}
-
 /* HIDDEN BOT CHECKER */
 .bot-checker {
     display: none;

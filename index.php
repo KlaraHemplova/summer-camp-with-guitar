@@ -300,8 +300,8 @@
                     <ul>
                         <li>karta zdravotní pojišťovny</li>
                         <li>zdravotní a&nbsp;očkovací průkaz účastníka</li>
-                        <li><a href="">posudek o&nbsp;zdravotní způsobilosti účastníka</a></li>
-                        <li><a href="">prohlášení rodičů o&nbsp;bezinfekčnosti účastníka</a></li>
+                        <li><a href="files/posudekOZdrZpus.pdf" target="_blank">posudek o&nbsp;zdravotní způsobilosti účastníka</a></li>
+                        <li><a href="files/prohlaseniZakonnehoZastupce.pdf" target="_blank">prohlášení rodičů o&nbsp;bezinfekčnosti účastníka</a></li>
                     </ul>
                 </div>
 

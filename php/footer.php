@@ -13,8 +13,8 @@
             <div class="text-box-item">
                 <h4>Dokumenty v PDF</h4>
                 <ul>
-                    <li><a href="">Prohlášení zákonného zástupce o&nbsp;bezinfekčnosti účastníka</a></li>
-                    <li><a href="">Posudek o&nbsp;zdravotní způsobilosti účastníka</a></li>
+                    <li><a href="/files/prohlaseniZakonnehoZastupce.pdf" target="_blank">Prohlášení zákonného zástupce o&nbsp;bezinfekčnosti účastníka</a></li>
+                    <li><a href="/files/posudekOZdrZpus.pdf" target="_blank">Posudek o&nbsp;zdravotní způsobilosti účastníka</a></li>
                 </ul>
             </div>
 
