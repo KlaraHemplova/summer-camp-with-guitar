@@ -98,27 +98,3 @@ function closeLightbox() {
     document.body.classList.remove("no-scrollbar");
     lightboxBackground.style.display = "none";
 }
-
-
-
-// MOBILE SWIPE
-var touchStartX = 0;
-var touchEndX = 0;
-
-function checkDirection() {
-    if(lightboxBackground.style.display === "block") {
-        if(touchEndX < touchStartX) {
-            nextImg();
-        } else if(touchEndX > touchStartX) {
-            previousImg();
-        }
-    }
-}
-
-document.addEventListener("touchstart", function(event) {
-    touchStartX = event.changedTouches[0].screenX;
-})
-document.addEventListener("touchend", function(event) {
-    touchEndX = event.changedTouches[0].screenX;
-    checkDirection();
-})
