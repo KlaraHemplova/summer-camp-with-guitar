@@ -52,6 +52,9 @@ form input[type='tel']:focus-visible,
 form input[type='email']:focus-visible {
     border: 2px solid var(--gray0);
 }
+form input.invalid {
+    border: 2px solid var(--pink);
+}
 
 /* dropdown menu */
 form .dropdown-menu {

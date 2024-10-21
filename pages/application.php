@@ -22,7 +22,7 @@
         </div>
 
         <div class="container no-select">
-            <form id="application" action="../php/sendApplication.php" method="post">
+            <form onsubmit="return onSubmit()" id="application" action="../php/sendApplication.php" method="post" novalidate>
 
                 <!-- HIDDEN BOT CHECKER -->
                 <input type="text" name="bot-checker" class="bot-checker" id="bot-checker">
@@ -34,13 +34,13 @@
                     <div class="action-type radio">
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="camp" value="camp" required="required">
+                                <input type="radio" name="camp_seminar" id="camp" value="camp" required>
                             </div>
                             <label for="camp">letní tábor s&nbsp;kytarou</label>
                         </div>
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="seminar" value="seminar" required="required">
+                                <input type="radio" name="camp_seminar" id="seminar" value="seminar">
                             </div>
                             <label for="seminar">víkendový kytarový seminář</label>
                         </div>
@@ -70,12 +70,12 @@
                     <div class="form-flex participant">
                         <!-- name and surname -->
                         <div class="flex-item">
-                            <input type="text" name="name" id="name"placeholder="jméno a příjmení účastníka" required="required">
+                            <input type="text" name="name" id="name" placeholder="jméno a příjmení účastníka" required>
                         </div>
 
                         <!-- birth date -->
                         <div class="flex-item">
-                            <input type="text" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required="required">
+                            <input type="text" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required>
                         </div>
                     </div>
                 </fieldset>
@@ -89,11 +89,11 @@
                         <div class="adress-container">
                             <div class="adress">
                                 <!-- street -->
-                                <input type="text" name="street" id="street" placeholder="ulice a č.p." required="required">
+                                <input type="text" name="street" id="street" placeholder="ulice a č.p." required>
                                 <!-- city -->
-                                <input type="text" name="city" id="city" placeholder="město" required="required">
+                                <input type="text" name="city" id="city" placeholder="město" required>
                                 <!-- zip code -->
-                                <input type="text" name="zip-code" id="zip-code" placeholder="PSČ" required="required">
+                                <input type="text" name="zip-code" id="zip-code" placeholder="PSČ" required>
                             </div>
                         </div>
                     </fieldset>
@@ -107,9 +107,9 @@
                                 <!-- phone number (participant) -->
                                 <input type="tel" name="phone-participant" id="phone-participant" placeholder="telefonní číslo účastníka (nepovinné)">
                                 <!-- phone number (parent) -->
-                                <input type="tel" name="phone-parent" id="phone-parent" placeholder="telefonní číslo zákonného zástupce" required="required">
+                                <input type="tel" name="phone-parent" id="phone-parent" placeholder="telefonní číslo zákonného zástupce" required>
                                 <!-- e-mail (parent) -->
-                                <input type="email" name="email" id="email" placeholder="e-mail zákonného zástupce" required="required">
+                                <input type="email" name="email" id="email" placeholder="e-mail zákonného zástupce" required>
                             </div>
                         </div>
                     </fieldset>
@@ -123,7 +123,7 @@
                         <!-- beginner -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_beginner" value="beginner" required="required">
+                                <input type="radio" name="experiences" id="exp_beginner" value="beginner" required>
                             </div>
                             <label for="exp_beginner">úplný začátečník (nikdy nehrál na kytaru)</label>
                         </div>
