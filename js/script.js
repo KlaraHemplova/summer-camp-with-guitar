@@ -49,16 +49,19 @@ var dropdownList = document.getElementById("dropdown-items");
 var selectedSeminar = document.getElementById("seminar-date");
 
 var documentSection = document.getElementById("documents");
+var stornoConditions = document.getElementById("storno");
 
-// dropdown & documents visibility
+// dropdown & documents & storno visibility
 function dropdownVisibility(event) {
     if(event.target.value === "seminar") {
         dropdownMenu.style.display = "block";
-        documentSection.style.display = "none"
+        documentSection.style.display = "none";
+        stornoConditions.style.display = "none";
     } 
     else if(event.target.value === "camp") {
         dropdownMenu.style.display = "none";
         documentSection.style.display = "block";
+        stornoConditions.style.display = "block";
 
         dropdownSelect.innerText = "vyberte termín semináře"
         dropdownSelect.style.color = "var(--gray1)";

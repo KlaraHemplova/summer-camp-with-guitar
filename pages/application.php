@@ -40,7 +40,7 @@
                         </div>
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="seminar" value="seminar">
+                                <input type="radio" name="camp_seminar" id="seminar" value="seminar" required="required">
                             </div>
                             <label for="seminar">víkendový kytarový seminář</label>
                         </div>
@@ -199,12 +199,12 @@
                 </fieldset>
 
                 <!-- STORNO CONDITIONS -->
-                <fieldset class="storno">
+                <fieldset class="storno" id="storno">
                     <legend>Storno podmínky</legend>
 
                     <div>
                         <div>
-                            Při zrušení přihlášky do 20&nbsp;dnů před odjezdem účtujeme 20&nbsp;% a&nbsp;do 10&nbsp;dnů a&nbsp;méně 50&nbsp;% ceny tábora/semináře. 80&nbsp;% ceny Vám bude vráceno při onemocnění účastníka doloženého lékařským potvrzením před odjezdem.
+                            Při zrušení přihlášky do 20&nbsp;dnů před odjezdem účtujeme 20&nbsp;% a&nbsp;do 10&nbsp;dnů a&nbsp;méně 50&nbsp;% ceny tábora. 80&nbsp;% ceny Vám bude vráceno při onemocnění účastníka doloženého lékařským potvrzením před odjezdem.
                         </div>
                         <div>
                             Stornopoplatky účastník neplatí v&nbsp;případě zajištění náhradníka nebo zrušení akce.

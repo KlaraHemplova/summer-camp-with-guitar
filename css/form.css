@@ -60,7 +60,6 @@ form .dropdown-menu {
     height: 40px;
     border-radius: 8px;
     margin-top: 12px;
-    margin-bottom: 12px;
     border: 2px solid var(--white);
     background-color: var(--white);
     font-size: 16px;
@@ -207,8 +206,9 @@ form .experiences {
     margin-bottom: 12px;
 }
 
-/* DOCUMENTS */
-form .documents {
+/* DOCUMENTS & STORNO DISPLAY */
+form .documents,
+form .storno {
     display: none;
 }
 
