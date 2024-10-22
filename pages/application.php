@@ -40,7 +40,7 @@
                         </div>
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="seminar" value="seminar">
+                                <input type="radio" name="camp_seminar" id="seminar" value="seminar" required>
                             </div>
                             <label for="seminar">víkendový kytarový seminář</label>
                         </div>
@@ -59,7 +59,7 @@
                             <div data-value="8">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
                         </div>
                     </div>
-                    <input type="hidden" name="seminar-date" id="seminar-date">
+                    <input type="text" name="seminar-date" id="seminar-date">
 
                 </fieldset>
 
@@ -130,14 +130,14 @@
                         <!-- intermediate -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_intermediate" value="intermediate">
+                                <input type="radio" name="experiences" id="exp_intermediate" value="intermediate" required>
                             </div>
                             <label for="exp_intermediate">mírně pokročilý (již zná některé akordy a&nbsp;doprovody, zná noty&hellip;)</label>
                         </div>
                         <!-- advanced -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_advanced" value="advanced">
+                                <input type="radio" name="experiences" id="exp_advanced" value="advanced" required>
                             </div>
                             <label for="exp_advanced">pokročilý (ovládá akordy a&nbsp;doprovody, improvizuje, zná noty&hellip;)</label>
                         </div>
@@ -232,6 +232,7 @@
 
     <!------- FOOTER -------->
     <?php include_once "../php/footer.php"; ?>
+    <script src="/js/application.js"></script>
 
 </body>
 </html>

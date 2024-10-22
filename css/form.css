@@ -52,8 +52,9 @@ form input[type='tel']:focus-visible,
 form input[type='email']:focus-visible {
     border: 2px solid var(--gray0);
 }
-form input.invalid {
-    border: 2px solid var(--pink);
+form input.invalid,
+form .dropdown-menu.invalid {
+    border: 2px solid var(--pink) !important;
 }
 
 /* dropdown menu */
@@ -184,6 +185,11 @@ form input[type='submit'] {
 }
 .form-flex .flex-item {
     width: 100%;
+}
+
+/* HIDDEN SEMINAR-DATE INPUT */
+#seminar-date {
+    display: none;
 }
 
 /* ADRESS & CONTACT row gap */
