@@ -1,14 +1,14 @@
-var galleryImg = document.getElementsByClassName("gallery-img");
-var currentImg;
-var currentImgIndex;
+const galleryImg = document.getElementsByClassName("gallery-img");
+let currentImg;
+let currentImgIndex;
 
-var lightboxBackground = document.getElementById("lightbox-background");
-var lightboxPhoto = document.querySelector("#lightbox-photo > img");
+const lightboxBackground = document.getElementById("lightbox-background");
+const lightboxPhoto = document.querySelector("#lightbox-photo > img");
 
-var caption = document.getElementById("lightbox-caption");
+const caption = document.getElementById("lightbox-caption");
 
-var previousButton = document.getElementById("lightbox-previous");
-var nextButton = document.getElementById("lightbox-next");
+const previousButton = document.getElementById("lightbox-previous");
+const nextButton = document.getElementById("lightbox-next");
 
 
 
@@ -16,9 +16,9 @@ var nextButton = document.getElementById("lightbox-next");
 function imgProperties() {
 
     // get attributes SRC, ALT, DATA-TITLE
-    var imgSRC = currentImg.getAttribute("src");
-    var imgALT = currentImg.getAttribute("alt");
-    var imgCaption = currentImg.getAttribute("data-title");
+    let imgSRC = currentImg.getAttribute("src");
+    let imgALT = currentImg.getAttribute("alt");
+    let imgCaption = currentImg.getAttribute("data-title");
 
     // set new attributes SRC, ALT, DATA-TITLE
     lightboxPhoto.setAttribute("src", imgSRC.replace("/img/gallery/preview/", "/img/gallery/"));
@@ -44,14 +44,14 @@ function imgProperties() {
 
 
 // OPEN LIGHTBOX GALLERY
-for (var i = 0; i < galleryImg.length; i++) {
+for (let i = 0; i < galleryImg.length; i++) {
     galleryImg[i].addEventListener("click", openLightbox);
 }
 
 function openLightbox(event) {
 
     // set clicked IMG
-    for (var i = 0; i < galleryImg.length; i++) {
+    for (let i = 0; i < galleryImg.length; i++) {
         if(event.currentTarget === galleryImg[i]) {
             currentImg = galleryImg[i].children[1];
             currentImgIndex = i;

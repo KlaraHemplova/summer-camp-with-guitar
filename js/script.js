@@ -5,7 +5,7 @@ function toggleMenu(mobileButton) {
     mobileButton.classList.toggle("hamburger-clicked");
 
     // animation of navigation menu on mobile screen
-    let navBar = document.getElementById("nav");
+    const navBar = document.getElementById("nav");
     navBar?.classList.toggle("JS_active");
 
     if(navBar.classList?.contains("JS_active")) {
@@ -18,7 +18,7 @@ function toggleMenu(mobileButton) {
 
 
 // SCROLL-TO-TOP BUTTON
-var scrollButton = document.getElementById("scroll-to-top");
+const scrollButton = document.getElementById("scroll-to-top");
 
 // show the button when the user scrolls down 200px
 window.onscroll = function() {
@@ -38,66 +38,10 @@ function scrollToTop() {
 
 
 
-// APPLICATION DROPDOWN MENU
-var radioSeminar = document.getElementById("seminar");
-var radioCamp = document.getElementById("camp");
-
-var dropdownMenu = document.getElementById("dropdown-menu");
-var dropdownSelect = document.getElementById("dropdown-select");
-var dropdownList = document.getElementById("dropdown-items");
-
-var selectedSeminar = document.getElementById("seminar-date");
-
-var documentSection = document.getElementById("documents");
-var stornoConditions = document.getElementById("storno");
-
-// dropdown & documents & storno visibility
-function dropdownVisibility(event) {
-    if(event.target.value === "seminar") {
-        dropdownMenu.style.display = "block";
-        documentSection.style.display = "none";
-        stornoConditions.style.display = "none";
-    } 
-    else if(event.target.value === "camp") {
-        dropdownMenu.style.display = "none";
-        documentSection.style.display = "block";
-        stornoConditions.style.display = "block";
-
-        dropdownSelect.innerText = "vyberte termín semináře"
-        dropdownSelect.style.color = "var(--gray1)";
-        dropdownSelect.style.fontWeight = 300;
-
-        selectedSeminar.value = "";
-    }
-}
-
-radioSeminar?.addEventListener("change", dropdownVisibility);
-radioCamp?.addEventListener("change", dropdownVisibility);
-
-// dropdown select
-document.addEventListener("click", function(event) {
-    if(!event.target.closest("#dropdown-menu")) {
-        dropdownList?.classList.remove("select-show");
-    } 
-    else if (event.target.id === "dropdown-select") {
-        dropdownList.classList.toggle("select-show");
-    } 
-    else if (event.target.closest("#dropdown-items")) {
-        dropdownSelect.innerText = event.target.innerText;
-        dropdownSelect.style.color = "var(--black)";
-        dropdownSelect.style.fontWeight = 400;
-        
-        selectedSeminar.value = event.target.getAttribute("data-value");
-        dropdownList.classList.remove("select-show");
-    }
-});
-
-
-
 // ACCOUNT NUMBER COPPIED WHEN CLICKED
 function accountNumberToCopy() {
 
-    var accountNumber = this.innerText;
+    let accountNumber = this.innerText;
 
     navigator.clipboard.writeText(accountNumber).then(function() {
         document.getElementById("copied").innerText = "Číslo účtu zkopírováno do schráky.";
@@ -113,7 +57,7 @@ document.getElementById("accountNumberToCopy")?.addEventListener('click', accoun
 // FOOTER AUTO-HEIGHT
 function setFooterPadding() {
 
-    let footerHeight = document.getElementById("footer").clientHeight;
+    const footerHeight = document.getElementById("footer").clientHeight;
     document.getElementById("main").style.paddingBottom  = footerHeight + "px";
 }
 
