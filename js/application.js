@@ -110,24 +110,25 @@ function validateInput(input) {
 // on submit
 function onSubmit() {
     const requiredInputs = document.querySelectorAll("input[required]");
+    let isValid = true;
+
+    // validate inputs
+    for (let i = 0; i < requiredInputs.length; i++) {
+        isValid = validateInput(requiredInputs[i]) && isValid;
+    }
+
+    // validate dropdown menu
+    isValid = validateDropdown(selectedSeminar) && isValid;
 
     // sends respondent to the top of the application
-    function scrollToApplication() {
+    if(!isValid) {
         const headerHeight = document.getElementById("header").clientHeight;
 
         document.body.scrollTop = headerHeight; // Safari
         document.documentElement.scrollTop = headerHeight; // Chrome, Firefox, IE, Opera
     }
-
-    // marks all invalid inputs in pink border
-    for (let i = 0; i < requiredInputs.length; i++) {
-        validateInput(requiredInputs[i]);
-    }
-
-    // marks empty dropdown menu in pink border
-    validateDropdown(selectedSeminar);
     
-    return false;
+    return isValid;
 }
 
 
