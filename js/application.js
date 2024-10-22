@@ -10,7 +10,7 @@ const selectedSeminar = document.getElementById("seminar-date");
 const documentSection = document.getElementById("documents");
 const stornoConditions = document.getElementById("storno");
 
-let requiredInputs;
+const allInputs = document.querySelectorAll("input");
 
 
 
@@ -56,14 +56,60 @@ document.addEventListener("click", function(event) {
         
         selectedSeminar.value = event.target.getAttribute("data-value");
         dropdownList.classList.remove("select-show");
+
+        validateDropdown(selectedSeminar);
     }
 });
 
 
 
 // VALIDATION
+// dropdown
+function validateDropdown(input) {
+    if(!input.checkValidity()) {
+        dropdownMenu.classList.add("invalid");
+        return false;
+    }
+    else {
+        dropdownMenu.classList.remove("invalid");
+        return true;
+    }
+}
+
+// all inputs
+function validateInput(input) {
+
+    // for text fields
+    if(input.type === "text" || input.type === "tel" || input.type === "email") {
+        if(!input.checkValidity()) {
+            input.classList.add("invalid");
+            return false;
+        } 
+        else {
+            input.classList.remove("invalid");
+            return true;
+        }
+    }
+    // for radio buttons
+    else if(input.type === "radio") {
+        const radios = document.querySelectorAll('input[name="' + input.name + '"]');
+    
+        if(!input.checkValidity()) {
+            input.classList.add("invalid");
+            return false;
+        }
+        else {
+            radios.forEach(function(element) {
+                element.classList.remove("invalid")
+            });
+            return true;
+        }
+    }
+}
+
+// on submit
 function onSubmit() {
-    requiredInputs = document.querySelectorAll("input[required]");
+    const requiredInputs = document.querySelectorAll("input[required]");
 
     // sends respondent to the top of the application
     function scrollToApplication() {
@@ -75,24 +121,24 @@ function onSubmit() {
 
     // marks all invalid inputs in pink border
     for (let i = 0; i < requiredInputs.length; i++) {
-
-        if(!requiredInputs[i].checkValidity()) {
-            requiredInputs[i].classList.add("invalid");
-            scrollToApplication();
-        }
-        else {
-            requiredInputs[i].classList.remove("invalid");
-        }
+        validateInput(requiredInputs[i]);
     }
 
     // marks empty dropdown menu in pink border
-    if(!selectedSeminar.checkValidity()) {
-        dropdownMenu.classList.add("invalid");
-        scrollToApplication();
-    }
-    else {
-        dropdownMenu.classList.remove("invalid");
-    }
+    validateDropdown(selectedSeminar);
     
     return false;
 }
+
+
+
+// REMOVES HIGHLIGHT WHEN FILLED
+for (let i = 0; i < allInputs.length; i++) {
+    allInputs[i].addEventListener("change", removeHighlight);
+}
+
+function removeHighlight(event) {
+    validateInput(event.currentTarget)
+}
+
+
