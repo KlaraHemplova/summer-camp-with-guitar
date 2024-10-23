@@ -145,10 +145,9 @@
             <div class="teachers-text">Na víkendových seminářích většinou vyučují tři z&nbsp;těchto lektorů:</div>
 
             <div class="teachers">
-                <div>Tomáš Havel</div>
-                <div>Tereza Vlčková</div>
                 <div>Markéta Mourková</div>
                 <div>Markéta Matoušková</div>
+                <div>Tomáš Havel</div>
                 <div>Anna Beckerová</div>
                 <div>Klára Hemplová</div>
             </div>

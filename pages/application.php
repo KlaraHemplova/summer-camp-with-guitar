@@ -34,13 +34,13 @@
                     <div class="action-type radio">
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="camp" value="camp" required>
+                                <input type="radio" name="camp_seminar" id="camp" value="letní tábor" required>
                             </div>
                             <label for="camp">letní tábor s&nbsp;kytarou</label>
                         </div>
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="camp_seminar" id="seminar" value="seminar" required>
+                                <input type="radio" name="camp_seminar" id="seminar" value="víkendový seminář" required>
                             </div>
                             <label for="seminar">víkendový kytarový seminář</label>
                         </div>
@@ -49,14 +49,14 @@
                     <div class="dropdown-menu" id="dropdown-menu">
                         <div class="dropdown-select" id="dropdown-select">vyberte termín semináře</div>
                         <div class="dropdown-items" id="dropdown-items">
-                            <div data-value="1">2025&ensp;/&ensp;leden–únor&ensp;/&ensp;31.–2.</div>
-                            <div data-value="2">2025&ensp;/&ensp;březen&ensp;/&ensp;7.–9.</div>
-                            <div data-value="3">2025&ensp;/&ensp;červen&ensp;/&ensp;6.–8.</div>
-                            <div data-value="4">2025&ensp;/&ensp;říjen&ensp;/&ensp;3.–5.</div>
-                            <div data-value="5">2026&ensp;/&ensp;únor&ensp;/&ensp;6.–8.</div>
-                            <div data-value="6">2026&ensp;/&ensp;duben&ensp;/&ensp;10.–12.</div>
-                            <div data-value="7">2026&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
-                            <div data-value="8">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
+                            <div data-value="2025/leden–únor/31.–2.">2025&ensp;/&ensp;leden–únor&ensp;/&ensp;31.–2.</div>
+                            <div data-value="2025/březen/7.–9.">2025&ensp;/&ensp;březen&ensp;/&ensp;7.–9.</div>
+                            <div data-value="2025/červen/6.–8.">2025&ensp;/&ensp;červen&ensp;/&ensp;6.–8.</div>
+                            <div data-value="2025/říjen/3.–5.">2025&ensp;/&ensp;říjen&ensp;/&ensp;3.–5.</div>
+                            <div data-value="2026/únor/6.–8.">2026&ensp;/&ensp;únor&ensp;/&ensp;6.–8.</div>
+                            <div data-value="2026/duben/10.–12.">2026&ensp;/&ensp;duben&ensp;/&ensp;10.–12.</div>
+                            <div data-value="2026/červen/20.–22.">2026&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
+                            <div data-value="2026/říjen/2.–4.">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
                         </div>
                     </div>
                     <input type="text" name="seminar-date" id="seminar-date">
@@ -123,21 +123,21 @@
                         <!-- beginner -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_beginner" value="beginner" required>
+                                <input type="radio" name="experiences" id="exp_beginner" value="začátečník" required>
                             </div>
                             <label for="exp_beginner">úplný začátečník (nikdy nehrál na kytaru)</label>
                         </div>
                         <!-- intermediate -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_intermediate" value="intermediate" required>
+                                <input type="radio" name="experiences" id="exp_intermediate" value="mírně pokročilý" required>
                             </div>
                             <label for="exp_intermediate">mírně pokročilý (již zná některé akordy a&nbsp;doprovody, zná noty&hellip;)</label>
                         </div>
                         <!-- advanced -->
                         <div class="radio-box">
                             <div>
-                                <input type="radio" name="experiences" id="exp_advanced" value="advanced" required>
+                                <input type="radio" name="experiences" id="exp_advanced" value="pokročilý" required>
                             </div>
                             <label for="exp_advanced">pokročilý (ovládá akordy a&nbsp;doprovody, improvizuje, zná noty&hellip;)</label>
                         </div>
@@ -161,9 +161,9 @@
 
                     <div class="radio-box vegetarian">
                         <div>
-                            <input type="checkbox" name="seminar-vege" id="seminar-vege" value="seminar-vege">
+                            <input type="checkbox" name="vegetarian" id="vegetarian" value="zajistit vegetariánskou stravu">
                         </div>
-                        <label for="seminar-vege">zajistit vegetariánskou stravu</label>
+                        <label for="vegetarian">zajistit vegetariánskou stravu</label>
                     </div>
                 </fieldset>
 
@@ -222,7 +222,7 @@
                 </fieldset>
 
                 <!-- SUBMIT BUTTON -->
-                <input type="submit" value="Odeslat přihlášku">
+                <input type="submit" name="submit" value="Odeslat přihlášku">
 
             </form>
         </div>

@@ -74,7 +74,7 @@
 
 
             <div class="leader">
-                <img src="/img/leadership/anonymous.jpg" alt="anonymous">
+                <img src="/img/leadership/luckaJaneckova.jpg" alt="Lucie Janečková">
 
                 <div class="leader-box">
 
@@ -182,7 +182,7 @@
 
 
             <div class="leader">
-                <img src="/img/leadership/anonymous.jpg" alt="anonymous">
+                <img src="/img/leadership/petrTobisek.jpg" alt="Petr Tobišek">
 
                 <div class="leader-box">
 
@@ -212,6 +212,23 @@
 
                     <div class="leader-about">
                         <p>Narodila se v květnu roku 1996. V páté třídě byla přijata na ZUŠ Habrmanova v Hradci Králové do třídy PhDr. Jiřího Slavíčka a začala se učit hře na klasickou kytaru. Odjakživa ji to táhlo k výtvarnému umění, proto se rozhodla vystudovat střední grafickou školu v Jihlavě, pak ale zvítězila kytara, takže si následně dodělala ještě konzervatoř v Brně pod vedením Mgr. Petra Víta. V současné době žije v Brně a pracuje jako učitelka kytary na ZUŠ Šlapanice. Zároveň ji to ale táhne k IT a tvorbě webových stránek a v tomto oboru se aktivně vzdělává. Její velkou vášní je šití všeho možného, především se ale věnuje batohům a kabelkám pod značkou Od Klárky.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leader">
+                <img src="/img/leadership/tomHavel.jpg" alt="Tomáš Havel">
+
+                <div class="leader-box">
+
+                    <div class="leader-header gray">
+                        <h2>Tomáš Havel</h2>
+                        <div class="leader-position margin-bottom-10px">vyučující</div>
+                        <div class="leader-comment small-text">Příležitostně učí na kytarových seminářích.</div>
+                    </div>
+
+                    <div class="leader-about">
+                        <p>Narozený v Hradci Králové roku 1994. Kromě ZUŠ na Střezině, kde se učil hrát na klasickou kytaru, jezdil nadšeně na víkendové semináře a letní tábory, kde se učil novým doprovodům, objevil spoustu skvělých přátel a rozšířil své hudební obzory o řadu interpretů. Později mohl vše předávat dál jako lektor, a tak se nepřestal učit novým věcem další řadu let. Věnuje se grafickému designu a čas tráví s rodinou v Praze, ale kytara je mu nadále věrným společníkem a do společenství kytaristů se bude rád vracet, kdykoliv to bude možné.</p>
                     </div>
                 </div>
             </div>

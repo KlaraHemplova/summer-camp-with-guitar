@@ -16,13 +16,13 @@ const allInputs = document.querySelectorAll("input");
 
 // CAMP || SEMINAR SWITCH
 function campSeminarSwitch(event) {
-    if(event.target.value === "seminar") {
+    if(event.target.value === "víkendový seminář") {
         dropdownMenu.style.display = "block";
         documentSection.style.display = "none";
         stornoConditions.style.display = "none";
         selectedSeminar.required = true;
     } 
-    else if(event.target.value === "camp") {
+    else if(event.target.value === "letní tábor") {
         dropdownMenu.style.display = "none";
         documentSection.style.display = "block";
         stornoConditions.style.display = "block";
