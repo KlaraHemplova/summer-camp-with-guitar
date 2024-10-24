@@ -62,7 +62,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
     if (isset($_POST["vegetarian"])) {
         $vegetarian = htmlspecialchars($_POST['vegetarian'], ENT_QUOTES, 'UTF-8');
     } else {
-        $vegetarian = "";
+        $vegetarian = "ne";
     }
 
 
@@ -75,7 +75,47 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
     $subject = "PŘIHLÁŠKA: $name";
 
     // email content
-    $emailContent = "Druh akce: $actionType";
+    $emailContent = "
+
+        <div style='max-width: 600px;'>
+            <fieldset style='margin-bottom: 16px; border: none; border-radius: 10px; background-color: #f4f6f9;'>
+                <legend style='color: #ffffff; font-size: 14px; font-weight: 500; padding: 4px 12px; margin-bottom: 10px; background-color: #f050ae; border-radius: 30px;'>Druh akce</legend>
+
+                <div style='font-weight: 600; margin-left: 6px; margin-bottom: 4px;'>$actionType</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'>$seminarDate</div>
+            </fieldset>
+
+            <fieldset style='margin-bottom: 16px; border: none; border-radius: 10px; background-color: #f4f6f9;'>
+                <legend style='color: #ffffff; font-size: 14px; font-weight: 500; padding: 4px 12px; margin-bottom: 10px; background-color: #f050ae; border-radius: 30px;'>Zákonný zástupce</legend>
+
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>E-mail:</span>&ensp;$email</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Telefon:</span>&ensp;$phoneParent</div>
+            </fieldset>
+
+            <fieldset style='margin-bottom: 16px; border: none; border-radius: 10px; background-color: #f4f6f9;'>
+                <legend style='color: #ffffff; font-size: 14px; font-weight: 500; padding: 4px 12px; margin-bottom: 10px; background-color: #f050ae; border-radius: 30px;'>Účastník</legend>
+
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Jméno:</span>&ensp;$name</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Datum narození:</span>&ensp;$birthDate</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Adresa:</span>&ensp;$street, $zipCode $city</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Telefon:</span>&ensp;$phoneParticipant</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'><span style='font-weight: 600;'>Vegetariánská strava:</span>&ensp;$vegetarian</div>
+            </fieldset>
+
+            <fieldset style='margin-bottom: 16px; border: none; border-radius: 10px; background-color: #f4f6f9;'>
+                <legend style='color: #ffffff; font-size: 14px; font-weight: 500; padding: 4px 12px; margin-bottom: 10px; background-color: #f050ae; border-radius: 30px;'>Stupeň pokročilosti účastníka</legend>
+
+                <div style='font-weight: 600; margin-left: 6px; margin-bottom: 10px;'>$experiences</div>
+                <div style='margin-left: 6px; margin-bottom: 4px;'>$experiencesInfo</div>
+            </fieldset>
+
+            <fieldset style='margin-bottom: 16px; border: none; border-radius: 10px; background-color: #f4f6f9;'>
+                <legend style='color: #ffffff; font-size: 14px; font-weight: 500; padding: 4px 12px; margin-bottom: 10px; background-color: #f050ae; border-radius: 30px;'>Zdravotní stav účastníka</legend>
+
+                <div style='margin-left: 6px; margin-bottom: 4px;'>$health</div>
+            </fieldset>
+        </div>
+    ";
 
 
 
@@ -145,7 +185,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
             $mail->isHTML(true);
             $mail->Subject = $subject;
             $mail->Body    = $emailContent;
-            $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         
             $mail->send();
             $message = "<h2>Vaše přihláška byla odeslána.</h2>";

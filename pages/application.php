@@ -49,14 +49,14 @@
                     <div class="dropdown-menu" id="dropdown-menu">
                         <div class="dropdown-select" id="dropdown-select">vyberte termín semináře</div>
                         <div class="dropdown-items" id="dropdown-items">
-                            <div data-value="2025/leden–únor/31.–2.">2025&ensp;/&ensp;leden–únor&ensp;/&ensp;31.–2.</div>
-                            <div data-value="2025/březen/7.–9.">2025&ensp;/&ensp;březen&ensp;/&ensp;7.–9.</div>
-                            <div data-value="2025/červen/20.–22.">2025&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
-                            <div data-value="2025/říjen/3.–5.">2025&ensp;/&ensp;říjen&ensp;/&ensp;3.–5.</div>
-                            <div data-value="2026/únor/6.–8.">2026&ensp;/&ensp;únor&ensp;/&ensp;6.–8.</div>
-                            <div data-value="2026/duben/10.–12.">2026&ensp;/&ensp;duben&ensp;/&ensp;10.–12.</div>
-                            <div data-value="2026/červen/12.–14.">2026&ensp;/&ensp;červen&ensp;/&ensp;12.–14.</div>
-                            <div data-value="2026/říjen/2.–4.">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
+                            <div data-value="2025 / leden–únor / 31.–2.">2025&ensp;/&ensp;leden–únor&ensp;/&ensp;31.–2.</div>
+                            <div data-value="2025 / březen / 7.–9.">2025&ensp;/&ensp;březen&ensp;/&ensp;7.–9.</div>
+                            <div data-value="2025 / červen / 20.–22.">2025&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
+                            <div data-value="2025 / říjen / 3.–5.">2025&ensp;/&ensp;říjen&ensp;/&ensp;3.–5.</div>
+                            <div data-value="2026 / únor / 6.–8.">2026&ensp;/&ensp;únor&ensp;/&ensp;6.–8.</div>
+                            <div data-value="2026 / duben / 10.–12.">2026&ensp;/&ensp;duben&ensp;/&ensp;10.–12.</div>
+                            <div data-value="2026 / červen / 12.–14.">2026&ensp;/&ensp;červen&ensp;/&ensp;12.–14.</div>
+                            <div data-value="2026 / říjen / 2.–4.">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
                         </div>
                     </div>
                     <input type="text" name="seminar-date" id="seminar-date">
@@ -171,7 +171,7 @@
 
                     <div class="radio-box vegetarian">
                         <div>
-                            <input type="checkbox" name="vegetarian" id="vegetarian" value="zajistit vegetariánskou stravu">
+                            <input type="checkbox" name="vegetarian" id="vegetarian" value="ano">
                         </div>
                         <label for="vegetarian">zajistit vegetariánskou stravu</label>
                     </div>
