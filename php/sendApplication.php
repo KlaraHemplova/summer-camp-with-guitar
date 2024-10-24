@@ -13,6 +13,7 @@ require '../vendor/PHPMailer/src/Exception.php';
 
 
 $message = "";
+$isMailSent = false;
 
 if($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -148,6 +149,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
         
             $mail->send();
             $message = "<h2>Vaše přihláška byla odeslána.</h2>";
+            $isMailSent = true;
         }
         catch (Exception $e) {
             $message = "<h2>Něco se pokazilo!</h2><p>Error: {$mail->ErrorInfo}</p>";
@@ -168,10 +170,22 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
 <?php include_once "head.php"; ?>
 
 
-<body class="application-color">
+<body class="<?php echo ($isMailSent) ? "camp-color" : "payment-color" ?>">
 
-    <div class="container"><?php echo $message ?></div>
+    <!------- HEADER -------->
+    <?php include_once "header.php"; ?>
+
+    <main id="main" class="container application-sent">
+        <div class="success-message <?php echo ($isMailSent) ? "green" : "red" ?>"><?php echo $message ?></div>
+
+        <button onclick="<?php echo ($isMailSent) ? "window.location.href='../index.php'" : "history.back()" ?>">
+            <?php echo ($isMailSent) ? "Zpět na hlavní stránku" : "Zpět na přihlášku" ?>
+        </button>
+    </main>
 
     
+    <!------- FOOTER -------->
+    <?php include_once "footer.php"; ?>
+
 </body>
 </html>
