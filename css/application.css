@@ -251,11 +251,14 @@ form fieldset ul {
     list-style: disc;
 }
 
-
-
-/**********************************/
-/******** APPLICATION RECAP *******/
-/**********************************/
+/* ERROR MESSAGES */
+form .error-message {
+    display: none;
+    font-size: 12px;
+    color: var(--pink);
+    text-align: right;
+    margin-top: 4px;
+}
 
 
 

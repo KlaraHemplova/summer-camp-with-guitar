@@ -22,7 +22,7 @@
         </div>
 
         <div class="container no-select">
-            <form onsubmit="return onSubmit()" id="application" action="../php/sendApplication.php" method="post" novalidate>
+            <form onsubmit="return onSubmit()" id="application" action="/php/sendApplication.php" method="post" novalidate>
 
                 <!-- HIDDEN BOT CHECKER -->
                 <input type="text" name="bot-checker" class="bot-checker" id="bot-checker">
@@ -75,7 +75,8 @@
 
                         <!-- birth date -->
                         <div class="flex-item">
-                            <input type="text" name="birth-date" id="birth-date" placeholder="datum narození účastníka" required>
+                            <input type="text" name="birth-date" id="birth-date" pattern="([1-9]|0[1-9]|[12][0-9]|3[01])\. ?([1-9]|0[1-9]|1[0-2])\. ?([12]\d{3})" placeholder="datum narození účastníka" required>
+                            <div class="error-message" id="error-date">Zadejte prosím datum narození ve formátu (D)D.(M)M.RRRR.</div>
                         </div>
                     </div>
                 </fieldset>
@@ -93,7 +94,10 @@
                                 <!-- city -->
                                 <input type="text" name="city" id="city" placeholder="město" required>
                                 <!-- zip code -->
-                                <input type="text" name="zip-code" id="zip-code" placeholder="PSČ" required>
+                                <div>
+                                    <input type="text" name="zip-code" id="zip-code" pattern="\d{3} ?\d{2}" placeholder="PSČ" required>
+                                    <div class="error-message" id="error-zip-code">Zadejte prosím PSČ ve formátu 123 45.</div>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
@@ -105,11 +109,17 @@
                         <div class="contact-container">
                             <div class="contact">
                                 <!-- phone number (participant) -->
-                                <input type="tel" name="phone-participant" id="phone-participant" placeholder="telefonní číslo účastníka (nepovinné)">
+                                <input type="tel" name="phone-participant" id="phone-participant" pattern="\d{3} ?\d{3} ?\d{3}" placeholder="telefonní číslo účastníka (nepovinné)">
                                 <!-- phone number (parent) -->
-                                <input type="tel" name="phone-parent" id="phone-parent" placeholder="telefonní číslo zákonného zástupce" required>
+                                <div>
+                                    <input type="tel" name="phone-parent" id="phone-parent" pattern="\d{3} ?\d{3} ?\d{3}" placeholder="telefonní číslo zákonného zástupce" required>
+                                    <div class="error-message" id="error-tel">Zadejte prosím telefonní čísla ve formátu 123 456 789.</div>
+                                </div>
                                 <!-- e-mail (parent) -->
-                                <input type="email" name="email" id="email" placeholder="e-mail zákonného zástupce" required>
+                                <div>
+                                    <input type="email" name="email" id="email" placeholder="e-mail zákonného zástupce" required>
+                                    <div class="error-message" id="error-mail">Zadejte prosím e-mail ve správném tvaru.</div>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
@@ -169,10 +179,9 @@
 
                 <!-- OTHER DOCUMENTS -->
                 <fieldset class="documents" id="documents">
-                    <legend>Dokumenty</legend>
+                    <legend>Nezbytné dokumenty</legend>
 
                     <div>
-                        <!-- <div id="camp-seminar-switch">Na všechny akce je potřeba mít u sebe tyto dokumenty:</div> -->
                         <ul>
                             <li>karta pojišťovny (stačí kopie)</li>
                             <li class="documents-hidden">zdravotní a&nbsp;očkovací průkaz účastníka</li>

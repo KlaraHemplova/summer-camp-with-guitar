@@ -232,6 +232,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="leader">
+                <img src="/img/leadership/anickaBeckerova.jpg" alt="Anna Beckerová">
+
+                <div class="leader-box">
+
+                    <div class="leader-header gray">
+                        <h2>Anna Beckerová</h2>
+                        <div class="leader-position margin-bottom-10px">vyučující</div>
+                        <div class="leader-comment small-text">Příležitostně učí na kytarových seminářích.</div>
+                    </div>
+
+                    <div class="leader-about">
+                        <p>Na kytaru začala hrát ve 12 letech, nejdřív na soukromých hodinách u Davida Fiedlera, následně pod vedením Rosti Coufala na ZUŠ Střezina v Hradci Králové. Kytarových seminářů a táborů se účastní od roku 2008, o osm let později začala na táborech sama vyučovat. Kreativní prostředí a kolektiv kytarových táborů a seminářů ji spolu s hodinami zpěvu pod vedením Aleny Kubínové rovněž na ZUŠ Střezina inspirovaly k vlastní tvorbě, které se věnuje od roku 2016. Aktuálně žije v Praze, kde pracuje v kulturním a komunitním centru. Kromě toho se podílí na organizaci divadelního a jazzového festivalu v Hradci Králové a koncertuje v duu spolu s violoncellistou. Ve svém volném čase ráda čte, šije, tančí, hostí své kamarády a odpočívá v přírodě.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>

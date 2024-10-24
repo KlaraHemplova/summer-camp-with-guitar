@@ -230,7 +230,7 @@
                             <tr><th colspan="5">Pátek</th></tr>
                             <tr><td>18.30</td>  <td>–</td>  <td>19.00</td>  <td>příjezd účastníků</td></tr>
                             <tr><td>19.15</td>  <td></td>   <td></td>       <td>večeře</td></tr>
-                            <tr><td>20.00</td>  <td></td>   <td></td>       <td>seznámení s řádem semináře atd.</td></tr>
+                            <tr><td>20.00</td>  <td></td>   <td></td>       <td>seznámení s programem semináře</td></tr>
                             <tr><td>22.00</td>  <td></td>   <td></td>       <td>večerka účastníků do 15&nbsp;let</td></tr>
                             <tr><td>23.00</td>  <td></td>   <td></td>       <td>večerka účastníků nad 15&nbsp;let</td></tr>
                             <tr><td colspan="5"></td></tr>

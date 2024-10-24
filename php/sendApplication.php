@@ -12,7 +12,9 @@ require '../vendor/PHPMailer/src/Exception.php';
 
 
 
-if(isset($_POST["submit"])) {
+$message = "";
+
+if($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // HIDDEN BOT CHECKER
     $botChecker = htmlspecialchars($_POST['bot-checker'], ENT_QUOTES, 'UTF-8');
@@ -21,7 +23,12 @@ if(isset($_POST["submit"])) {
 
     // APPLICATION DATA VALUE
     // action type
-    $actionType = htmlspecialchars($_POST['camp_seminar'], ENT_QUOTES, 'UTF-8');
+    if (isset($_POST["camp_seminar"])) {
+        $actionType = htmlspecialchars($_POST['camp_seminar'], ENT_QUOTES, 'UTF-8');
+    } else {
+        $actionType = "";
+    }
+
     $seminarDate = htmlspecialchars($_POST['seminar-date'], ENT_QUOTES, 'UTF-8');
 
     // participant
@@ -39,14 +46,23 @@ if(isset($_POST["submit"])) {
     $email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
 
     // participant experiences
-    $experiences = htmlspecialchars($_POST['experiences'], ENT_QUOTES, 'UTF-8');
+    if (isset($_POST["experiences"])) {
+        $experiences = htmlspecialchars($_POST['experiences'], ENT_QUOTES, 'UTF-8');
+    } else {
+        $experiences = "";
+    }
+
     $experiencesInfo = htmlspecialchars($_POST['experiences-info'], ENT_QUOTES, 'UTF-8');
 
     // health condition
     $health = htmlspecialchars($_POST['health'], ENT_QUOTES, 'UTF-8');
 
     // vegetarian option
-    $vegetarian = htmlspecialchars($_POST['vegetarian'], ENT_QUOTES, 'UTF-8');
+    if (isset($_POST["vegetarian"])) {
+        $vegetarian = htmlspecialchars($_POST['vegetarian'], ENT_QUOTES, 'UTF-8');
+    } else {
+        $vegetarian = "";
+    }
 
 
 
@@ -62,10 +78,48 @@ if(isset($_POST["submit"])) {
 
 
 
-    // PHP MAILER
-    $message = "";
+    // VALIDATION
+    $errors = [];
 
-    if($botChecker === "") {
+    if($actionType === "") {
+        $errors[] = "Nebyl vybrán druh akce.";
+    }
+
+    if($actionType === "víkendový seminář" && $seminarDate === "") {
+        $errors[] = "Nebylo vybráno datum semináře.";
+    }
+
+    if($name === "") {
+        $errors[] = "Nebylo vyplněno datum účastníka.";
+    }
+
+    if($birthDate === "") {
+        $errors[] = "Nebylo vyplněno datum narození účastníka.";
+    }
+
+    if($street === "" || $city === "" || $zipCode === "") {
+        $errors[] = "Nebyla vyplněna celá adresa účastníka.";
+    }
+
+    if($phoneParent === "") {
+        $errors[] = "Nebylo vyplněno telefonní číslo zákonného zástupce.";
+    }
+
+    if($email === "") {
+        $errors[] = "Nebyla vyplněna e-mailová adresa.";
+    } else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "E-mail nebyl ve správném formátu.";
+    }
+    
+    if($experiences === "") {
+        $errors[] = "Nebyl vybrán stupeň pokročilosti účastníka.";
+    }
+
+
+
+    // PHP MAILER
+
+    if($botChecker === "" && empty($errors)) {
 
         $mail = new PHPMailer(true);
 
@@ -94,18 +148,16 @@ if(isset($_POST["submit"])) {
         
             $mail->send();
             $message = "<h2>Vaše přihláška byla odeslána.</h2>";
-
-        } catch (Exception $e) {
+        }
+        catch (Exception $e) {
             $message = "<h2>Něco se pokazilo!</h2><p>Error: {$mail->ErrorInfo}</p>";
         }
     } 
     else {
         $message = "<h2>Něco se pokazilo!</h2>";
     }
-
 }
 ?>
-
 
 
 
@@ -118,7 +170,7 @@ if(isset($_POST["submit"])) {
 
 <body class="application-color">
 
-    <div><?php echo $message ?></div>
+    <div class="container"><?php echo $message ?></div>
 
     
 </body>

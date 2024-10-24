@@ -1,3 +1,5 @@
+const form = document.getElementById("application");
+
 const radioSeminar = document.getElementById("seminar");
 const radioCamp = document.getElementById("camp");
 
@@ -7,11 +9,15 @@ const dropdownList = document.getElementById("dropdown-items");
 
 const selectedSeminar = document.getElementById("seminar-date");
 
-// const campSeminarTextSwitch = document.getElementById("camp-seminar-switch")
 const hiddenDocuments = document.querySelectorAll(".documents-hidden");
 const stornoConditions = document.getElementById("storno");
 
 const allInputs = document.querySelectorAll("input");
+
+const errorDate = document.getElementById("error-date");
+const errorTel = document.getElementById("error-tel");
+const errorMail = document.getElementById("error-mail");
+const errorZip = document.getElementById("error-zip-code");
 
 
 
@@ -19,7 +25,6 @@ const allInputs = document.querySelectorAll("input");
 function campSeminarSwitch(event) {
     if(event.target.value === "víkendový seminář") {
         dropdownMenu.style.display = "block";
-        // campSeminarTextSwitch.innerText = "Na semináři je potřeba mít u sebe tyto dokumenty:";
         hiddenDocuments.forEach(function(element) {
             element.style.display = "none";
         });
@@ -28,7 +33,6 @@ function campSeminarSwitch(event) {
     } 
     else if(event.target.value === "letní tábor") {
         dropdownMenu.style.display = "none";
-        // campSeminarTextSwitch.innerText = "V den příjezdu na tábor je potřeba odevzdat tyto dokumenty:";
         hiddenDocuments.forEach(function(element) {
             element.style.display = "list-item";
         });
@@ -86,15 +90,79 @@ function validateDropdown(input) {
 // all inputs
 function validateInput(input) {
 
-    // for text fields
-    if(input.type === "text" || input.type === "tel" || input.type === "email") {
+    function addInvalid() {
+        input.classList.add("invalid");
+        return false;
+    }
+
+    function removeInvalid() {
+        input.classList.remove("invalid");
+        return true;
+    }
+
+    // for text field with date
+    if(input.type === "text" && input.id === "birth-date") {
+        if(input.value === "") {
+            return addInvalid();
+        }
+        else if(input.value !== "" && !input.checkValidity()) {
+            errorDate.style.display = "block";
+            return addInvalid();
+        }
+        else {
+            errorDate.style.display = "none";
+            return removeInvalid();
+        }
+    }
+    // for text field with zip code
+    else if(input.type === "text" && input.id === "zip-code") {
+        if(input.value === "") {
+            return addInvalid();
+        }
+        else if(input.value !== "" && !input.checkValidity()) {
+            errorZip.style.display = "block";
+            return addInvalid();
+        }
+        else {
+            errorZip.style.display = "none";
+            return removeInvalid();
+        }
+    }
+    // for other text fields
+    else if(input.type === "text" && input.id !== "birth-date" && input.id !== "zip-code") {
         if(!input.checkValidity()) {
-            input.classList.add("invalid");
-            return false;
+            return addInvalid();
         } 
         else {
-            input.classList.remove("invalid");
-            return true;
+            return removeInvalid();
+        }
+    }
+    // for tel fields
+    else if(input.type === "tel") {
+        if(input.value === "") {
+            return addInvalid();
+        }
+        else if(input.value !== "" && !input.checkValidity()) {
+            errorTel.style.display = "block";
+            return addInvalid();
+        }
+        else {
+            errorTel.style.display = "none";
+            return removeInvalid();
+        }
+    }
+    // for email field
+    else if(input.type === "email") {
+        if(input.value === "") {
+            return addInvalid();
+        }
+        else if(input.value !== "" && !input.checkValidity()) {
+            errorMail.style.display = "block";
+            return addInvalid();
+        }
+        else {
+            errorMail.style.display = "none";
+            return removeInvalid();
         }
     }
     // for radio buttons
@@ -102,8 +170,7 @@ function validateInput(input) {
         const radios = document.querySelectorAll('input[name="' + input.name + '"]');
     
         if(!input.checkValidity()) {
-            input.classList.add("invalid");
-            return false;
+            return addInvalid();
         }
         else {
             radios.forEach(function(element) {
