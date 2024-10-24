@@ -7,7 +7,8 @@ const dropdownList = document.getElementById("dropdown-items");
 
 const selectedSeminar = document.getElementById("seminar-date");
 
-const documentSection = document.getElementById("documents");
+// const campSeminarTextSwitch = document.getElementById("camp-seminar-switch")
+const hiddenDocuments = document.querySelectorAll(".documents-hidden");
 const stornoConditions = document.getElementById("storno");
 
 const allInputs = document.querySelectorAll("input");
@@ -18,13 +19,19 @@ const allInputs = document.querySelectorAll("input");
 function campSeminarSwitch(event) {
     if(event.target.value === "víkendový seminář") {
         dropdownMenu.style.display = "block";
-        documentSection.style.display = "none";
+        // campSeminarTextSwitch.innerText = "Na semináři je potřeba mít u sebe tyto dokumenty:";
+        hiddenDocuments.forEach(function(element) {
+            element.style.display = "none";
+        });
         stornoConditions.style.display = "none";
         selectedSeminar.required = true;
     } 
     else if(event.target.value === "letní tábor") {
         dropdownMenu.style.display = "none";
-        documentSection.style.display = "block";
+        // campSeminarTextSwitch.innerText = "V den příjezdu na tábor je potřeba odevzdat tyto dokumenty:";
+        hiddenDocuments.forEach(function(element) {
+            element.style.display = "list-item";
+        });
         stornoConditions.style.display = "block";
         selectedSeminar.required = false;
 

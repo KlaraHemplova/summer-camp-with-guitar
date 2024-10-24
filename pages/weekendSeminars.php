@@ -83,7 +83,7 @@
             <div class="weekends text-box">
 
                 <div class="weekends-section text-box-item purple">
-                    <h4>2025</h4> <!-- next year -->
+                    <h4>2025</h4> <!-- current year -->
                     <hr class="h4-hr">
 
                     <div class="seminar-date-row">
@@ -95,7 +95,7 @@
                         <div class="seminar-date month">březen</div>
                     </div>
                     <div class="seminar-date-row">
-                        <div class="seminar-date days">6.–8.</div>
+                        <div class="seminar-date days">20.–22.</div>
                         <div class="seminar-date month">červen</div>
                     </div>
                     <div class="seminar-date-row">
@@ -105,7 +105,7 @@
                 </div>
 
                 <div class="weekends-section text-box-item blue">
-                    <h4>2026</h4> <!-- year after next year -->
+                    <h4>2026</h4> <!-- next year -->
                     <hr class="h4-hr">
 
                     <div class="seminar-date-row">
@@ -117,7 +117,7 @@
                         <div class="seminar-date month">duben</div>
                     </div>
                     <div class="seminar-date-row">
-                        <div class="seminar-date days">20.–22.</div>
+                        <div class="seminar-date days">12.–14.</div>
                         <div class="seminar-date month">červen</div>
                     </div>
                     <div class="seminar-date-row">
@@ -126,8 +126,8 @@
                     </div>
                 </div>
 
-                <div class="weekends-section text-box-item pink">
-                    <h4>2027</h4> <!-- current year -->
+                <div class="weekends-section text-box-item pink" style="display: none;">
+                    <h4>2027</h4> <!-- year after next year -->
                     <hr class="h4-hr">
                 </div>
             </div>

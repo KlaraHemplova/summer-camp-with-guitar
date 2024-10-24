@@ -91,7 +91,7 @@
                     <p>Kromě výuky hry na kytaru, která probíhá zhruba tři hodiny denně, je připraven i&nbsp;tradiční táborový program včetně společenských her, sportu, soutěží, výletů, koupání, táborových ohňů apod.</p>
                 </div>
                 <div class="text-box-item yellow">
-                    <p>Součástí výuky je také možnost vyzkoušet si hru v&nbsp;kapele.</p>
+                    <p>Součástí výuky je také hra v&nbsp;kapele.</p>
                 </div>
             </div>
 

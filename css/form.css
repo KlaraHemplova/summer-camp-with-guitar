@@ -216,7 +216,7 @@ form .experiences {
 }
 
 /* DOCUMENTS & STORNO DISPLAY */
-form .documents,
+form .documents-hidden,
 form .storno {
     display: none;
 }

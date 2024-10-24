@@ -51,11 +51,11 @@
                         <div class="dropdown-items" id="dropdown-items">
                             <div data-value="2025/leden–únor/31.–2.">2025&ensp;/&ensp;leden–únor&ensp;/&ensp;31.–2.</div>
                             <div data-value="2025/březen/7.–9.">2025&ensp;/&ensp;březen&ensp;/&ensp;7.–9.</div>
-                            <div data-value="2025/červen/6.–8.">2025&ensp;/&ensp;červen&ensp;/&ensp;6.–8.</div>
+                            <div data-value="2025/červen/20.–22.">2025&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
                             <div data-value="2025/říjen/3.–5.">2025&ensp;/&ensp;říjen&ensp;/&ensp;3.–5.</div>
                             <div data-value="2026/únor/6.–8.">2026&ensp;/&ensp;únor&ensp;/&ensp;6.–8.</div>
                             <div data-value="2026/duben/10.–12.">2026&ensp;/&ensp;duben&ensp;/&ensp;10.–12.</div>
-                            <div data-value="2026/červen/20.–22.">2026&ensp;/&ensp;červen&ensp;/&ensp;20.–22.</div>
+                            <div data-value="2026/červen/12.–14.">2026&ensp;/&ensp;červen&ensp;/&ensp;12.–14.</div>
                             <div data-value="2026/říjen/2.–4.">2026&ensp;/&ensp;říjen&ensp;/&ensp;2.–4.</div>
                         </div>
                     </div>
@@ -169,14 +169,15 @@
 
                 <!-- OTHER DOCUMENTS -->
                 <fieldset class="documents" id="documents">
-                    <legend>Další dokumenty</legend>
+                    <legend>Dokumenty</legend>
 
                     <div>
-                        <div>V den příjezdu na tábor je potřeba odevzdat tyto dokumenty:</div>
+                        <!-- <div id="camp-seminar-switch">Na všechny akce je potřeba mít u sebe tyto dokumenty:</div> -->
                         <ul>
-                            <li>zdravotní a&nbsp;očkovací průkaz účastníka</li>
-                            <li><a href="/files/posudekOZdrZpus.pdf" target="_blank">posudek o&nbsp;zdravotní způsobilosti účastníka</a> potvrzený lékařem</li>
-                            <li><a href="/files/prohlaseniZakonnehoZastupce.pdf" target="_blank">prohlášení rodičů o&nbsp;bezinfekčnosti účastníka</a></li>
+                            <li>karta pojišťovny (stačí kopie)</li>
+                            <li class="documents-hidden">zdravotní a&nbsp;očkovací průkaz účastníka</li>
+                            <li class="documents-hidden"><a href="/files/posudekOZdrZpus.pdf" target="_blank">posudek o&nbsp;zdravotní způsobilosti účastníka</a> potvrzený lékařem</li>
+                            <li class="documents-hidden"><a href="/files/prohlaseniZakonnehoZastupce.pdf" target="_blank">prohlášení rodičů o&nbsp;bezinfekčnosti účastníka</a></li>
                         </ul>
                     </div>
                 </fieldset>
