@@ -1,6 +1,5 @@
 <head>
 
-    <meta name="robots" content="noindex">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
@@ -9,7 +8,7 @@
     <meta property="og:title" content="Letní tábor s kytarou">
     <meta property="og:description" content="Pro všechny, kteří mají rádi kytaru.">
     <meta property="og:locale" content="cs">
-    <meta property="og:image" content="https://www.kytarasklarkou.cz/img/linkImage.jpg">
+    <meta property="og:image" content="/img/linkImage.jpg">
     
     <!------- TITLE -------->
     <title>Letní tábor s kytarou</title>

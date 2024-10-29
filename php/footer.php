@@ -50,3 +50,8 @@
 
 <!------- JAVASCRIPT -------->
 <script src="/js/script.js"></script>
+
+
+<!-------- PHP VERSION -------->
+<?php $PHP_version = phpversion(); ?>
+<script>console.log("PHP version: <?= $PHP_version ?>");</script>

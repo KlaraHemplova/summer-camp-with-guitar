@@ -167,16 +167,16 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
         try {
             // server settings
             $mail->isSMTP();
-            $mail->Host       = $SMTPhost;
+            $mail->Host       = $SMTP_host;
             $mail->SMTPAuth   = true;
-            $mail->Username   = $SMTPusername;
-            $mail->Password   = $SMTPpassword;
+            $mail->Username   = $SMTP_username;
+            $mail->Password   = $SMTP_password;
             $mail->SMTPSecure = "ssl";
             $mail->Port       = 465;
             $mail->CharSet    = "UTF-8";
         
             // recipient
-            $mail->setFrom($SMTPusername, 'Letní tábor s kytarou');
+            $mail->setFrom($SMTP_username, 'Letní tábor s kytarou');
             $mail->addAddress($recipient, 'Klára Hemplová');
             $mail->addCC($email);
             $mail->addReplyTo($email);
